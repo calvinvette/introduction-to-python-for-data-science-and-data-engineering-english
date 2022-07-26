@@ -10,8 +10,8 @@
 # MAGIC %md # Project Information
 # MAGIC 
 # MAGIC * Name: **Introduction to Python for Data Science & Data Engineering**
-# MAGIC * Version:  **1.0.0**
-# MAGIC * Built On: **Jul 9, 2022 at 20:05:10 UTC**
+# MAGIC * Version:  **1.0.1**
+# MAGIC * Built On: **Jul 25, 2022 at 23:22:42 UTC**
 
 # COMMAND ----------
 

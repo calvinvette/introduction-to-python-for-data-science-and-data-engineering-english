@@ -17,25 +17,13 @@
 # MAGIC ## Day 1 AM
 # MAGIC | Time | Lesson &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 # MAGIC |:----:|-------|-------------|
-# MAGIC | 30m  | **Introductions & Setup**                               | *Registration, Courseware & Q&As* |
-# MAGIC | 25m  | **[Databricks Environment]($./ITP 00 - Databricks Environment)** |  | 
+# MAGIC | 30m  | **Introductions & Setup**                               | *Registration, courseware & introductions* |
+# MAGIC | 30m  | **[Databricks Environment]($./ITP 00 - Databricks Environment)** |  *Overview of the Databricks environment and course content*| 
 # MAGIC | 10m  | **Break**                                               ||
-# MAGIC | 30m  | **[Variables and Data Types]($./ITP 01 - Data Types and Variables) & [Lab]($./Labs/ITP 01L - Data Types and Variables Lab)**  |  |
-# MAGIC | 25m  | **[Control Flow]($./ITP 02 - Control Flow) & [Lab]($./Labs/ITP 02L - Control Flow Lab)**    |  |
-# MAGIC | 10m  | **Break**                                               ||
-# MAGIC | 50m  | **[Functions]($./ITP 03 - Functions) & [Lab]($./Labs/ITP 03L - Functions Lab)** |  |
-# MAGIC | 10m  | **Break**                                               ||
-# MAGIC | 35m  | **[Collection Types and Methods]($./ITP 04 - Collection Types and Methods) & [Lab]($./Labs/ITP 04L - Collection Types and Methods Lab)**      | 
-# MAGIC | 20m  | **[Loops]($./ITP 05 - Loops) & [Lab]($./Labs/ITP 05L - Loops Lab)**|  |
-# MAGIC | 25m  | **[Classes]($./ITP 06 - Classes) & [Lab]($./Labs/ITP 06L - Classes Lab)** |  | 
-# MAGIC | 10m  | **Break**                                               ||
-# MAGIC | 20m  | **[Cloud Computing 101]($./ITP 07 - Cloud Computing 101)**|  |
-# MAGIC | 30m  | **[Libraries]($./ITP 08 - Libraries)**  |  |
-# MAGIC | 25m  | **[Pandas Overview]($./ITP 09 - Pandas Overview) & [Lab]($./Labs/ITP 09L - Pandas Overview Lab)**    |  |
-# MAGIC | 10m  | **Break**                                               ||
-# MAGIC | 50m  | **[Advanced Pandas]($./ITP 10 - Advanced Pandas) & [Lab]($./Labs/ITP 10L - Advanced Pandas Lab)** |  |
-# MAGIC | 10m  | **Break**                                               ||
-# MAGIC | 35m  | **[Data Visualization]($./ITP 11 - Data Visualization) & [Lab]($./Labs/ITP 11L - Data Visualization Lab)**      | 
+# MAGIC | 50m  | **[Variables and Data Types]($./ITP 01 - Data Types and Variables) & [Lab]($./Labs/ITP 01L - Data Types and Variables Lab)**  |  *Built-in data types, variable assignment statements, related functions*|
+# MAGIC | 50m  | **[Control Flow]($./ITP 02 - Control Flow) & [Lab]($./Labs/ITP 02L - Control Flow Lab)**    | *Control flow of python programs using conditional statements* |
+# MAGIC | 15m  | **Break**                                               ||
+# MAGIC | 55m  | **[Functions]($./ITP 03 - Functions) & [Lab]($./Labs/ITP 03L - Functions Lab)** | *Write and use functions to reuse and parameterize code* |
 
 # COMMAND ----------
 
@@ -43,6 +31,10 @@
 # MAGIC ## Day 1 PM
 # MAGIC | Time | Lesson &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 # MAGIC |:----:|-------|-------------|
+# MAGIC | 55m  | **[Collection Types and Methods]($./ITP 04 - Collection Types and Methods) & [Lab]($./Labs/ITP 04L - Collection Types and Methods Lab)**      | *Advanced data types and methods*|
+# MAGIC | 55m  | **[Loops]($./ITP 05 - Loops) & [Lab]($./Labs/ITP 05L - Loops Lab)**| *More control flow statements with for-loops* |
+# MAGIC | 15m  | **Break**                                               ||
+# MAGIC | 55m  | **[Classes]($./ITP 06 - Classes) & [Lab]($./Labs/ITP 06L - Classes Lab)** | *Classes and custom data types* | 
 
 # COMMAND ----------
 
@@ -51,6 +43,10 @@
 # MAGIC | Time | Lesson &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 # MAGIC |:----:|-------|-------------|
 # MAGIC | 20m  | **Review**                               | *Review of Day 1* |
+# MAGIC | 60m  | **[Cloud Computing 101]($./ITP 07 - Cloud Computing 101)**| *Overview of cloud computing and how Databricks fits in*  |
+# MAGIC | 75m  | **[Libraries]($./ITP 08 - Libraries)**  | *Libraries, PyPI, and how use them* |
+# MAGIC | 10m  | **Break**                                               ||
+# MAGIC | 75m  | **[Pandas Overview]($./ITP 09 - Pandas Overview) & [Lab]($./Labs/ITP 09L - Pandas Overview Lab)**    | *Industry standard library for data manipulation* |
 
 # COMMAND ----------
 
@@ -58,6 +54,9 @@
 # MAGIC ## Day 2 PM
 # MAGIC | Time | Lesson &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 # MAGIC |:----:|-------|-------------|
+# MAGIC | 85m  | **[Advanced Pandas]($./ITP 10 - Advanced Pandas) & [Lab]($./Labs/ITP 10L - Advanced Pandas Lab)** |  *More advanced Pandas functionality*|
+# MAGIC | 10m  | **Break**                                               ||
+# MAGIC | 85m  | **[Data Visualization]($./ITP 11 - Data Visualization) & [Lab]($./Labs/ITP 11L - Data Visualization Lab)**      | *Visualizing data with Databricks, Pandas, and Seaborn*|
 
 # COMMAND ----------
 
