@@ -129,6 +129,62 @@ doubled_list
 
 # COMMAND ----------
 
+# MAGIC %md ### `break`
+# MAGIC 
+# MAGIC If you want to exit a loop early, before the loop has finished iterating over it's sequence, you can use **`break`**.
+# MAGIC 
+# MAGIC **`break`** is written on it's own line inside a loop code block, and when Python executes that line, Python will exit the loop code block and stop iterating over the list. 
+# MAGIC 
+# MAGIC Let's use this to stop iterating over **`numbers_list`** once we reach the number 4. 
+
+# COMMAND ----------
+
+for element in numbers_list:
+    if element == 4:
+        break
+    print(element)
+
+# COMMAND ----------
+
+# MAGIC %md ### `continue`
+# MAGIC 
+# MAGIC **`break`** exits the loop code block when it is executed and stops iterating over the list. If instead you wanted to exit the loop code block early, but still move on and continue to execute the sequence, you could use **`continue`** instead. 
+# MAGIC 
+# MAGIC **`continue`** is also written on it's own line and when it is executed Python stops executing the loop code block and then continues to iterate over the sequence. 
+
+# COMMAND ----------
+
+for element in numbers_list:
+    if element == 4:
+        continue # 4 is not printed, but the numbers after are
+    print(element)
+
+# COMMAND ----------
+
+# MAGIC %md ### While-loops
+# MAGIC 
+# MAGIC In addition to for-loops there is another kind of loops called while-loops. 
+# MAGIC 
+# MAGIC We write a [**while-loop**](https://www.w3schools.com/python/python_while_loops.asp) like this:
+# MAGIC ```
+# MAGIC  while boolean expression:
+# MAGIC      code_block
+# MAGIC ```
+# MAGIC 
+# MAGIC Python will loop and execute the code in the **`code_block`** until the boolean expression evaluates to **`False`**. Every loop, it will reevaluate the boolean expression, and if it is **`True`** it will execute the code again, otherwise it will exit. 
+# MAGIC 
+# MAGIC **NOTE:** You need to be careful not to have infinite loops here. If the boolean expression never evaluates to **`False`**, this code will keep running and never stop. 
+
+# COMMAND ----------
+
+count = 10
+
+while count > 0:
+    print(count)
+    count = count - 1
+
+# COMMAND ----------
+
 # MAGIC %md-sandbox
 # MAGIC &copy; 2022 Databricks, Inc. All rights reserved.<br/>
 # MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="https://www.apache.org/">Apache Software Foundation</a>.<br/>

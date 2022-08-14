@@ -130,6 +130,17 @@ display(dbutils.fs.mounts())
 
 # COMMAND ----------
 
+# MAGIC %md
+# MAGIC #### Code Versioning and Collaboration with Git
+# MAGIC 
+# MAGIC [Git](https://git-scm.com/) is a free and open source version control system. This means that it tracks the changes to code and allows you to store different versions of a project. You can restore previous versions if needed, and it also allows for branching and merging of a project where you can create different versions of a project focused on developing different features and then combine them back together. 
+# MAGIC 
+# MAGIC Git is a tool that can be run on your local machine or on Databricks to help with version control, but it shines as a collaboration tool when combined with [GitHub](https://github.com/). GitHub is a cloud-based hosting service that lets you manage Git code repositories, and it allows multiple users to download versions of a project, develop for the project, and then push back their changes. These changes can then be merged, so this creates an easy system for collaboration that forms the backbone of code projects. 
+# MAGIC 
+# MAGIC Open Source technology is usually available as a public Github Repository where anyone can download the code and help develop it. For instance, Apache Spark is open source and you can view all its code, download it, and even help create new features all from its GitHub page [here](https://github.com/apache/spark).
+
+# COMMAND ----------
+
 # MAGIC %md-sandbox
 # MAGIC &copy; 2022 Databricks, Inc. All rights reserved.<br/>
 # MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="https://www.apache.org/">Apache Software Foundation</a>.<br/>

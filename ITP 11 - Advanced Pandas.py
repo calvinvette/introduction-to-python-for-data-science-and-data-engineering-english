@@ -78,7 +78,7 @@ df.tail(3)
 # COMMAND ----------
 
 df = df.rename(columns={"neighbourhood": "neighborhood"})
-df.head(3)
+df[["id", "neighborhood"]].head(10)
 
 # COMMAND ----------
 
@@ -93,7 +93,7 @@ df.head(3)
 # COMMAND ----------
 
 filtered_df = df[df["host_is_superhost"] == "t"]
-filtered_df.head(3)
+filtered_df[["id", "host_is_superhost"]].head(10)
 
 # COMMAND ----------
 
@@ -125,7 +125,7 @@ df["host_is_superhost"] != "t"
 # COMMAND ----------
 
 filtered_df = df[(df["host_is_superhost"] == "t") & (df["number_of_reviews"] >= 150)]
-filtered_df.head(3)
+filtered_df[["id", "host_is_superhost", "number_of_reviews"]].head(10)
 
 # COMMAND ----------
 
@@ -222,7 +222,8 @@ reset_df
 
 # COMMAND ----------
 
-df.sort_values(["bedrooms"]).head(3)
+sorted_df = df.sort_values(["bedrooms"])
+sorted_df[["id","bedrooms"]].head(10)
 
 # COMMAND ----------
 
@@ -301,8 +302,8 @@ nan_df.fillna({"security_deposit": "$0.00", "notes": "Missing"}, inplace=False)
 
 # COMMAND ----------
 
-dbutils.fs.rm(working_dir) # Remove file if already exists
-df.to_csv(working_dir.replace("dbfs:", "/dbfs"), index=False)
+file_path = working_dir.replace("dbfs:", "/dbfs") + ".csv"
+df.to_csv(file_path, index=False)
 
 # COMMAND ----------
 
@@ -310,7 +311,7 @@ df.to_csv(working_dir.replace("dbfs:", "/dbfs"), index=False)
 
 # COMMAND ----------
 
-load_df = pd.read_csv(working_dir.replace("dbfs:", "/dbfs"))
+load_df = pd.read_csv(file_path)
 load_df.head()
 
 # COMMAND ----------
