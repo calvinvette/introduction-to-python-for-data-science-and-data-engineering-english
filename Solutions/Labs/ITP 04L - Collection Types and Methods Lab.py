@@ -7,7 +7,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-2e588f6c-a1c4-4184-888c-25dd7f246cf4
+# MAGIC 
+# MAGIC 
 # MAGIC # Collection Types and Methods
 # MAGIC 
 # MAGIC ## ![Spark Logo Tiny](https://files.training.databricks.com/images/105/logo_spark_tiny.png) In this lab you:<br>
@@ -17,7 +19,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md #### Problem 1a: Dinner Foods
+# MAGIC %md --i18n-f43f90db-5f06-4f7b-bbe1-e4a4a27a1984
+# MAGIC 
+# MAGIC 
+# MAGIC #### Problem 1a: Dinner Foods
 # MAGIC 
 # MAGIC We provide a list called **`dinner_list`** with elements "potatoes, peppers, onions" in that order. 
 
@@ -28,7 +33,10 @@ dinner_list = ["potatoes", "peppers", "onions"]
 
 # COMMAND ----------
 
-# MAGIC %md #### Problem 1b: Dinner Foods 
+# MAGIC %md --i18n-5382a8a7-3300-468e-8f1d-8009c6c3bb8c
+# MAGIC 
+# MAGIC 
+# MAGIC #### Problem 1b: Dinner Foods 
 # MAGIC 
 # MAGIC However, we actually ate sweet potatoes, not normal potatoes, so change the first element of the list to be "sweet potatoes".
 
@@ -44,7 +52,10 @@ print("Test passed!")
 
 # COMMAND ----------
 
-# MAGIC %md #### Problem 1c: Dinner Foods 
+# MAGIC %md --i18n-768e4c64-8466-4084-87b0-51a55f63c26f
+# MAGIC 
+# MAGIC  
+# MAGIC #### Problem 1c: Dinner Foods 
 # MAGIC Finally, we also ate some rice, so add "rice" to the end of the list.
 
 # COMMAND ----------
@@ -59,7 +70,10 @@ print("Test passed!")
 
 # COMMAND ----------
 
-# MAGIC %md #### Problem 2a: Dinner Dictionaries
+# MAGIC %md --i18n-04208057-4d9e-4b91-a12c-1c811d2940bf
+# MAGIC 
+# MAGIC 
+# MAGIC #### Problem 2a: Dinner Dictionaries
 # MAGIC 
 # MAGIC Create a dictionary called **`dinner_dict`** with pairs `"sweet potatoes": 3`, `"peppers": 4`, `"onions": 1` representing what we ate for dinner.
 
@@ -77,7 +91,10 @@ print("Tests passed!")
 
 # COMMAND ----------
 
-# MAGIC %md #### Problem 2b: Updating Dinner Dictionary
+# MAGIC %md --i18n-01f79df2-b253-4e4d-949b-868d08287636
+# MAGIC 
+# MAGIC 
+# MAGIC #### Problem 2b: Updating Dinner Dictionary
 # MAGIC 
 # MAGIC After thinking about it, we realize we actually only had 2 `sweet potatoes`. And while we didn't want to admit it, we also had one `ice cream` as well.
 # MAGIC 
@@ -91,7 +108,10 @@ dinner_dict["ice cream"] = 1
 
 # COMMAND ----------
 
-# MAGIC %md **Check your work:**
+# MAGIC %md --i18n-ea6adf37-9c45-44fa-a1ae-9f3452f05db8
+# MAGIC 
+# MAGIC 
+# MAGIC **Check your work:**
 
 # COMMAND ----------
 
@@ -101,7 +121,10 @@ print("Tests passed!")
 
 # COMMAND ----------
 
-# MAGIC %md ### Problem 3: Sets
+# MAGIC %md --i18n-0d94c470-0a24-4071-8e23-d71d610eb80e
+# MAGIC 
+# MAGIC 
+# MAGIC ### Problem 3: Sets
 # MAGIC 
 # MAGIC A very valuable skill for a programmer to have is to be able to look at documentation for a data type they do not know and understand how to use it. 
 # MAGIC 
@@ -127,7 +150,10 @@ ingredient_intersection_set
 
 # COMMAND ----------
 
-# MAGIC %md **Check your work:**
+# MAGIC %md --i18n-4f4f2578-063d-41c5-bffb-3fefadbe7380
+# MAGIC 
+# MAGIC 
+# MAGIC **Check your work:**
 
 # COMMAND ----------
 

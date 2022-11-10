@@ -7,7 +7,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-77c31689-d17b-4d25-b97b-53e046c50b10
+# MAGIC 
+# MAGIC 
 # MAGIC # Scaling Pandas with Spark
 # MAGIC 
 # MAGIC 
@@ -17,7 +19,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-8fad101f-86e7-4d33-9792-83cd3c87c23e
+# MAGIC 
+# MAGIC 
 # MAGIC 
 # MAGIC Recall from the cloud computing lesson the open source technology [Apache Spark](https://spark.apache.org/), which is an open-source data processing engine that manages distributed processing of large data sets. 
 # MAGIC 
@@ -29,7 +33,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md 
+# MAGIC %md --i18n-9112c122-6e72-4fe2-85f3-c1786b8d0620
+# MAGIC 
+# MAGIC  
 # MAGIC 
 # MAGIC <div style="img align: center; line-height: 0; padding-top: 9px;">
 # MAGIC   <img src="https://files.training.databricks.com/images/301/31gb.png" width="900"/>
@@ -47,7 +53,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md ## InternalFrame
+# MAGIC %md --i18n-812c6711-72b9-464c-86f8-66b93dd7e0d2
+# MAGIC 
+# MAGIC  
+# MAGIC ## InternalFrame
 # MAGIC 
 # MAGIC The InternalFrame holds the current Spark DataFrame and internal immutable metadata.
 # MAGIC 
@@ -61,7 +70,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md ### Read in the dataset
+# MAGIC %md --i18n-118a32b5-df6e-4679-884c-8077c2d6aa09
+# MAGIC 
+# MAGIC  
+# MAGIC ### Read in the dataset
 # MAGIC 
 # MAGIC * PySpark
 # MAGIC * pandas
@@ -73,54 +85,72 @@
 
 # COMMAND ----------
 
-# MAGIC %md Just like how we can read in data from a CSV file in pandas, we can read in data from a file in spark. 
+# MAGIC %md --i18n-a5801cbc-ab2a-444a-ad8a-a96791cf0596
+# MAGIC 
+# MAGIC  
+# MAGIC Just like how we can read in data from a CSV file in pandas, we can read in data from a file in spark. 
 
 # COMMAND ----------
 
-spark_df = spark.read.csv(f"{datasets_dir}/sf-airbnb/sf-airbnb.csv", header="true", inferSchema="true", multiLine="true", escape='"')
+spark_df = spark.read.csv(f"{DA.paths.datasets}/sf-airbnb/sf-airbnb.csv", header="true", inferSchema="true", multiLine="true", escape='"')
 display(spark_df)
 
 # COMMAND ----------
 
-# MAGIC %md Read in CSV with pandas
+# MAGIC %md --i18n-8f40703f-c097-4532-9bae-d56b07dd6907
+# MAGIC 
+# MAGIC 
+# MAGIC Read in CSV with pandas
 
 # COMMAND ----------
 
 import pandas as pd
 
-pandas_df = pd.read_csv(f"{datasets_dir}/sf-airbnb/sf-airbnb.csv".replace("dbfs:", "/dbfs"))
+pandas_df = pd.read_csv(f"{DA.paths.datasets}/sf-airbnb/sf-airbnb.csv".replace("dbfs:", "/dbfs"))
 pandas_df.head()
 
 # COMMAND ----------
 
-# MAGIC %md Read in CSV with pandas API on Spark. You'll notice pandas API on Spark generates an index column for you, like in pandas.
+# MAGIC %md --i18n-3092efbf-6f55-45ca-9ec7-4a45250d55f5
+# MAGIC 
+# MAGIC 
+# MAGIC Read in CSV with pandas API on Spark. You'll notice pandas API on Spark generates an index column for you, like in pandas.
 
 # COMMAND ----------
 
 import pyspark.pandas as ps
 
-df = ps.read_csv(f"{datasets_dir}/sf-airbnb/sf-airbnb.csv", inferSchema="true", multiLine="true", escape='"')
+df = ps.read_csv(f"{DA.paths.datasets}/sf-airbnb/sf-airbnb.csv", inferSchema="true", multiLine="true", escape='"')
 df.head()
 
 # COMMAND ----------
 
-# MAGIC %md ### <a href="https://koalas.readthedocs.io/en/latest/user_guide/options.html#default-index-type" target="_blank">Index Types</a>
+# MAGIC %md --i18n-ec4b222c-7a5f-49d7-a913-bc5a1c6c269f
+# MAGIC 
+# MAGIC 
+# MAGIC ### <a href="https://koalas.readthedocs.io/en/latest/user_guide/options.html#default-index-type" target="_blank">Index Types</a>
 # MAGIC 
 # MAGIC ![](https://files.training.databricks.com/images/301/koalas_index.png)
 
 # COMMAND ----------
 
 ps.set_option("compute.default_index_type", "distributed-sequence")
-df_dist_sequence = ps.read_csv(f"{datasets_dir}/sf-airbnb/sf-airbnb.csv", inferSchema="true", multiLine="true", escape='"')
+df_dist_sequence = ps.read_csv(f"{DA.paths.datasets}/sf-airbnb/sf-airbnb.csv", inferSchema="true", multiLine="true", escape='"')
 df_dist_sequence.head()
 
 # COMMAND ----------
 
-# MAGIC %md ### Converting to pandas API on Spark DataFrame to/from Spark DataFrame
+# MAGIC %md --i18n-2fd38d18-35ae-4971-825f-a6fd5cbc7b64
+# MAGIC 
+# MAGIC 
+# MAGIC ### Converting to pandas API on Spark DataFrame to/from Spark DataFrame
 
 # COMMAND ----------
 
-# MAGIC %md Creating a pandas API on Spark DataFrame from PySpark DataFrame
+# MAGIC %md --i18n-43331470-511a-4975-b075-3cf006da4e23
+# MAGIC 
+# MAGIC 
+# MAGIC Creating a pandas API on Spark DataFrame from PySpark DataFrame
 
 # COMMAND ----------
 
@@ -129,7 +159,10 @@ display(df)
 
 # COMMAND ----------
 
-# MAGIC %md Alternative way of creating a pandas API on Spark DataFrame from PySpark DataFrame
+# MAGIC %md --i18n-9579fb05-e9a2-4774-a4ad-d1988e0249ea
+# MAGIC 
+# MAGIC 
+# MAGIC Alternative way of creating a pandas API on Spark DataFrame from PySpark DataFrame
 
 # COMMAND ----------
 
@@ -138,7 +171,10 @@ display(df)
 
 # COMMAND ----------
 
-# MAGIC %md Go from a pandas API on Spark DataFrame to a Spark DataFrame
+# MAGIC %md --i18n-22d68896-91dc-432b-afd8-94bdfb962c09
+# MAGIC 
+# MAGIC 
+# MAGIC Go from a pandas API on Spark DataFrame to a Spark DataFrame
 
 # COMMAND ----------
 
@@ -146,11 +182,17 @@ display(df.to_spark())
 
 # COMMAND ----------
 
-# MAGIC %md ### Value Counts
+# MAGIC %md --i18n-523332ab-1890-411e-a830-f81476dc0aba
+# MAGIC 
+# MAGIC 
+# MAGIC ### Value Counts
 
 # COMMAND ----------
 
-# MAGIC %md Get value counts of the different property types with PySpark
+# MAGIC %md --i18n-d76a4309-2ad4-4ba9-9948-96d3f1dab224
+# MAGIC 
+# MAGIC 
+# MAGIC Get value counts of the different property types with PySpark
 
 # COMMAND ----------
 
@@ -158,7 +200,10 @@ display(spark_df.groupby("property_type").count().orderBy("count", ascending=Fal
 
 # COMMAND ----------
 
-# MAGIC %md Get value counts of the different property types with pandas API on Spark
+# MAGIC %md --i18n-63d5ecb1-8d6f-47fd-882f-8dd9d13d9748
+# MAGIC 
+# MAGIC 
+# MAGIC Get value counts of the different property types with pandas API on Spark
 
 # COMMAND ----------
 
@@ -166,7 +211,10 @@ df["property_type"].value_counts()
 
 # COMMAND ----------
 
-# MAGIC %md ### Visualizations
+# MAGIC %md --i18n-cb1c7961-4a96-4c18-9e0b-b9bbd35d5096
+# MAGIC 
+# MAGIC 
+# MAGIC ### Visualizations
 # MAGIC 
 # MAGIC Based on the type of visualization, the pandas API on Spark has optimized ways to execute the plotting.
 # MAGIC <br><br>
@@ -179,15 +227,21 @@ df["bedrooms"].hist(bins=20)
 
 # COMMAND ----------
 
-# MAGIC %md ### SQL on pandas API on Spark DataFrames
+# MAGIC %md --i18n-f449a17a-d308-4729-9696-4f6d804168f6
+# MAGIC 
+# MAGIC 
+# MAGIC ### SQL on pandas API on Spark DataFrames
 
 # COMMAND ----------
 
-ps.sql("SELECT distinct(property_type) FROM {df}")
+ps.sql("SELECT distinct(property_type) FROM {df}", df=df)
 
 # COMMAND ----------
 
-# MAGIC %md ### Interesting Facts
+# MAGIC %md --i18n-b9935020-093d-44f1-b84d-95b676d0d7cc
+# MAGIC 
+# MAGIC 
+# MAGIC ### Interesting Facts
 # MAGIC 
 # MAGIC * With pandas API on Spark you can read from Delta Tables and read in a directory of files
 # MAGIC * If you use apply on a pandas API on Spark DF and that DF is <1000 (by default), pandas API on Spark will use pandas as a shortcut - this can be adjusted using **`compute.shortcut_limit`**

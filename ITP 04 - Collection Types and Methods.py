@@ -7,7 +7,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-d845488d-8461-4ee9-8b24-9bdff213d1fb
+# MAGIC 
+# MAGIC 
 # MAGIC # Collection Types and Methods
 # MAGIC 
 # MAGIC ## ![Spark Logo Tiny](https://files.training.databricks.com/images/105/logo_spark_tiny.png) In this lesson you:<br>
@@ -18,7 +20,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md ## Objects
+# MAGIC %md --i18n-2d0178c2-f2b4-4746-82eb-5b81eec6be0e
+# MAGIC 
+# MAGIC 
+# MAGIC ## Objects
 # MAGIC 
 # MAGIC In this lesson we are first going to look at some new functionality provided by data types, and then see how we can use that in some new data types. But before we do that, we need to look at some terminology.
 # MAGIC 
@@ -28,7 +33,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md ## Methods: More Functionality
+# MAGIC %md --i18n-753edb8e-797e-4bf2-b6f4-4d4c952512a1
+# MAGIC 
+# MAGIC 
+# MAGIC ## Methods: More Functionality
 # MAGIC 
 # MAGIC As a reminder, data types provide **data** of some kind and **operations** we can do on that kind of data. So far, we have actually only looked at a small fraction of the operations provided by each type. 
 # MAGIC 
@@ -42,7 +50,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md ### String Methods
+# MAGIC %md --i18n-2ca5b59c-4cb8-4e87-b648-166eee0aedad
+# MAGIC 
+# MAGIC 
+# MAGIC ### String Methods
 # MAGIC 
 # MAGIC Let's take a look at an example of a method on a type we already know well: Strings. Strings provide a method called [**upper()**](https://www.w3schools.com/python/ref_string_upper.asp) which capitalizes a String.
 
@@ -54,7 +65,10 @@ print(greeting)
 
 # COMMAND ----------
 
-# MAGIC %md ### In-place methods
+# MAGIC %md --i18n-b83c4e97-70e0-4104-90f1-12ede96a8515
+# MAGIC 
+# MAGIC 
+# MAGIC ### In-place methods
 # MAGIC 
 # MAGIC Methods are functions that act on objects, and can either perform operations in-place (modify the underlying object it was called upon) or return a new object.
 # MAGIC 
@@ -62,7 +76,10 @@ print(greeting)
 
 # COMMAND ----------
 
-# MAGIC %md ### Tab Completion
+# MAGIC %md --i18n-bc7aa58a-5ea7-4387-96b7-189b364d56c3
+# MAGIC 
+# MAGIC 
+# MAGIC ### Tab Completion
 # MAGIC 
 # MAGIC If you want to see a list of methods you can apply to an object, type **`.`** after the object, then hit tab key to see a drop down menu of available methods on that object.
 # MAGIC 
@@ -75,7 +92,10 @@ greeting
 
 # COMMAND ----------
 
-# MAGIC %md ### `help()`
+# MAGIC %md --i18n-5b3151ca-f1d4-430f-8129-3cb28816c364
+# MAGIC 
+# MAGIC 
+# MAGIC ### `help()`
 # MAGIC 
 # MAGIC While using tab completion is extremely helpful, if we use it to look through all possible methods for a given object, we might still not be certain how those methods work.
 # MAGIC 
@@ -95,7 +115,10 @@ greeting.capitalize()
 
 # COMMAND ----------
 
-# MAGIC %md ## Methods with Collection Types
+# MAGIC %md --i18n-238070d2-fa76-43ef-a14b-2d67ef88af08
+# MAGIC 
+# MAGIC 
+# MAGIC ## Methods with Collection Types
 # MAGIC 
 # MAGIC Now that we have a brief understanding of methods, let's look at some more advanced data types and the methods they provide.
 # MAGIC 
@@ -103,7 +126,10 @@ greeting.capitalize()
 
 # COMMAND ----------
 
-# MAGIC %md ### Collection Type 1: Lists
+# MAGIC %md --i18n-d028dd16-da40-4c7d-b62e-650e154d1710
+# MAGIC 
+# MAGIC 
+# MAGIC ### Collection Type 1: Lists
 # MAGIC 
 # MAGIC A list is just an ordered sequence of items. 
 # MAGIC 
@@ -127,7 +153,10 @@ type(breakfast_list)
 
 # COMMAND ----------
 
-# MAGIC %md We'll use our **`breakfast_list`** as the running example, but note that the values in a list can be of any type, as shown below.
+# MAGIC %md --i18n-5ed35859-d9a4-44e0-a152-befc8855bab0
+# MAGIC 
+# MAGIC 
+# MAGIC We'll use our **`breakfast_list`** as the running example, but note that the values in a list can be of any type, as shown below.
 
 # COMMAND ----------
 
@@ -136,7 +165,10 @@ type(breakfast_list)
 
 # COMMAND ----------
 
-# MAGIC %md #### List Methods
+# MAGIC %md --i18n-5bd3521a-76df-46d3-b5ec-07d22a896321
+# MAGIC 
+# MAGIC 
+# MAGIC #### List Methods
 # MAGIC 
 # MAGIC Now that we understand the **data** a list data type provides, let's look at some of its **functionality**.
 # MAGIC 
@@ -157,7 +189,10 @@ breakfast_list
 
 # COMMAND ----------
 
-# MAGIC %md **Note:** Notice here that **`append()`** is an in-place method.
+# MAGIC %md --i18n-668b2cdd-8135-439b-bf95-2880346ce49c
+# MAGIC 
+# MAGIC 
+# MAGIC **Note:** Notice here that **`append()`** is an in-place method.
 # MAGIC The method does not return a new list, but rather edits the original **`breakfast_list`** object. 
 # MAGIC 
 # MAGIC **`+`** is also defined as concatenation for lists as shown below.
@@ -168,7 +203,10 @@ breakfast_list
 
 # COMMAND ----------
 
-# MAGIC %md While we typically use **`append()`**, it is possible to append elements to a list using **`+`**.
+# MAGIC %md --i18n-6237eb3c-7a8b-428b-9418-4b397c163484
+# MAGIC 
+# MAGIC 
+# MAGIC While we typically use **`append()`**, it is possible to append elements to a list using **`+`**.
 
 # COMMAND ----------
 
@@ -178,7 +216,10 @@ breakfast_list
 
 # COMMAND ----------
 
-# MAGIC %md A useful shortcut operation for this is **`+=`**.
+# MAGIC %md --i18n-a4bcc594-73a3-454d-ab4d-83db2844db10
+# MAGIC 
+# MAGIC 
+# MAGIC A useful shortcut operation for this is **`+=`**.
 # MAGIC 
 # MAGIC **`breakfast_list`** `+=` **`["yogurt"]`** is the same thing is **`breakfast_list`** `=` **`breakfast_list`** `+` **`["yogurt"]`**.
 # MAGIC 
@@ -192,7 +233,10 @@ breakfast_list
 
 # COMMAND ----------
 
-# MAGIC %md #### List indexing
+# MAGIC %md --i18n-31cf815e-ec37-4313-b36c-84023b9a6f8c
+# MAGIC 
+# MAGIC 
+# MAGIC #### List indexing
 # MAGIC 
 # MAGIC Often, we want to reference a specific item or items in a list. This called [list indexing](https://www.w3schools.com/python/python_lists_access.asp).
 # MAGIC 
@@ -208,7 +252,10 @@ breakfast_list[0]
 
 # COMMAND ----------
 
-# MAGIC %md We can also use negative indexing, which starts counting from right to left, starting from -1. 
+# MAGIC %md --i18n-b86f1c49-9cc7-4699-a329-2e60bc68a774
+# MAGIC 
+# MAGIC 
+# MAGIC We can also use negative indexing, which starts counting from right to left, starting from -1. 
 # MAGIC 
 # MAGIC Thus, the last element of the list is -1, the second to last is -2, etc.
 
@@ -218,7 +265,10 @@ breakfast_list[-1]
 
 # COMMAND ----------
 
-# MAGIC %md We can also provide a range of indices we want to access like this:
+# MAGIC %md --i18n-7cefd54e-7d6b-449e-99c0-48809deafc78
+# MAGIC 
+# MAGIC 
+# MAGIC We can also provide a range of indices we want to access like this:
 # MAGIC 
 # MAGIC **`list_name[start:stop]`**
 # MAGIC 
@@ -231,7 +281,10 @@ breakfast_list[0:2]
 
 # COMMAND ----------
 
-# MAGIC %md If we don't provide a start index, Python assumes we start at the beginning.
+# MAGIC %md --i18n-bd802cdb-aece-435f-8056-151ab60ce5a7
+# MAGIC 
+# MAGIC 
+# MAGIC If we don't provide a start index, Python assumes we start at the beginning.
 # MAGIC 
 # MAGIC If we don't provide a stop index, Python assumes we stop at the end. 
 
@@ -242,7 +295,10 @@ print(breakfast_list[1:])
 
 # COMMAND ----------
 
-# MAGIC %md We can also change the value of an index in a list to be something new like this:
+# MAGIC %md --i18n-c1232cd7-3bd1-4dad-bc96-97ed5d36c5b1
+# MAGIC 
+# MAGIC 
+# MAGIC We can also change the value of an index in a list to be something new like this:
 
 # COMMAND ----------
 
@@ -253,7 +309,10 @@ print(breakfast_list)
 
 # COMMAND ----------
 
-# MAGIC %md We can also use **`in`** to check if an element is in a given list. This is a boolean operation:
+# MAGIC %md --i18n-b26f49c7-544d-4cd7-811b-5439f136cdbe
+# MAGIC 
+# MAGIC 
+# MAGIC We can also use **`in`** to check if an element is in a given list. This is a boolean operation:
 
 # COMMAND ----------
 
@@ -261,7 +320,9 @@ print(breakfast_list)
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-589d7a85-089c-4870-abe7-7ad2fd293698
+# MAGIC 
+# MAGIC 
 # MAGIC ### Collection Type 2: Dictionaries
 # MAGIC 
 # MAGIC A [Dictionary](https://www.w3schools.com/python/python_dictionaries.asp) is a sequence of key-value pairs. We define a dictionary as follows:
@@ -279,7 +340,10 @@ breakfast_dict
 
 # COMMAND ----------
 
-# MAGIC %md #### Dictionary Methods
+# MAGIC %md --i18n-14aa0189-5d2a-49f5-a497-b1a29839d03c
+# MAGIC 
+# MAGIC 
+# MAGIC #### Dictionary Methods
 # MAGIC 
 # MAGIC Dictionaries provide the method [**dict_object.get()**](https://www.w3schools.com/python/ref_dictionary_get.asp) to get the value in the dictionary for the given argument. 
 # MAGIC 
@@ -291,7 +355,10 @@ breakfast_dict.get("waffles")
 
 # COMMAND ----------
 
-# MAGIC %md Alternatively, you can use the syntax **`dict_object[key]`**.
+# MAGIC %md --i18n-c8653cbc-95a1-474e-8675-bbef76473da7
+# MAGIC 
+# MAGIC 
+# MAGIC Alternatively, you can use the syntax **`dict_object[key]`**.
 
 # COMMAND ----------
 
@@ -299,7 +366,9 @@ breakfast_dict["waffles"]
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-de5edaf0-5374-4f84-888d-3a2793cd30fe
+# MAGIC 
+# MAGIC 
 # MAGIC 
 # MAGIC You can update a dictionary similarly to a list by assigning **`breakfast_dict[key]`** to be something. 
 # MAGIC 
@@ -316,13 +385,19 @@ print(breakfast_dict)
 
 # COMMAND ----------
 
-# MAGIC %md Notice the use of **`+=`** to increment the count of waffles.
+# MAGIC %md --i18n-9492938e-d135-47f8-8256-804d70cc4ff8
+# MAGIC 
+# MAGIC 
+# MAGIC Notice the use of **`+=`** to increment the count of waffles.
 # MAGIC 
 # MAGIC **Question**: Why did we not use **`+=`** to increment the yogurt count?
 
 # COMMAND ----------
 
-# MAGIC %md In order to determine if a key is in a dictionary, we can use the method [**dict_name.keys()**](https://www.w3schools.com/python/ref_dictionary_keys.asp). This returns a list of the keys in the dictionary. 
+# MAGIC %md --i18n-8092da28-ccad-4265-a97e-fb30c6da249d
+# MAGIC 
+# MAGIC 
+# MAGIC In order to determine if a key is in a dictionary, we can use the method [**dict_name.keys()**](https://www.w3schools.com/python/ref_dictionary_keys.asp). This returns a list of the keys in the dictionary. 
 # MAGIC 
 # MAGIC Similar to lists, we can use **`in`** to see if our key is in the dictionary. Let's see if we ate bacon for breakfast.
 

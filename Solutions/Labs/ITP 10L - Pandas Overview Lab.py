@@ -7,14 +7,19 @@
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-a951a3d5-c3dd-47f3-baf8-5ac6e51da1b8
+# MAGIC 
+# MAGIC 
 # MAGIC # Pandas Lab
 # MAGIC 
 # MAGIC In this lab, you will use <a href="https://pandas.pydata.org/docs/" target="_blank">pandas</a> for basic data manipulation.
 
 # COMMAND ----------
 
-# MAGIC %md #### Problem 1: Create a `DataFrame`
+# MAGIC %md --i18n-1eff4d5c-13cc-431f-9c45-e8d1ecb66998
+# MAGIC 
+# MAGIC  
+# MAGIC #### Problem 1: Create a `DataFrame`
 # MAGIC 
 # MAGIC Create the a **`DataFrame`** called **`df`** representing the table below of dogs. The data is included below.
 # MAGIC 
@@ -40,7 +45,9 @@ df
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox
+# MAGIC %md-sandbox --i18n-73936461-b0a9-47d0-b13c-8dec39331fdb
+# MAGIC 
+# MAGIC 
 # MAGIC <button onclick="myFunction2()" >Click for Hint</button>
 # MAGIC 
 # MAGIC <div id="myDIV2" style="display: none;">
@@ -59,7 +66,10 @@ df
 
 # COMMAND ----------
 
-# MAGIC %md **Check your work by running the cell below**
+# MAGIC %md --i18n-e287fd23-3bce-450c-9804-35dd232d0e00
+# MAGIC 
+# MAGIC 
+# MAGIC **Check your work by running the cell below**
 
 # COMMAND ----------
 
@@ -72,7 +82,10 @@ print("Test passed!")
 
 # COMMAND ----------
 
-# MAGIC %md #### Problem 2: What are the `dtypes`?
+# MAGIC %md --i18n-4a340577-c141-4e6f-8145-031dfa879b32
+# MAGIC 
+# MAGIC 
+# MAGIC #### Problem 2: What are the `dtypes`?
 # MAGIC 
 # MAGIC Print out the **`dtypes`** attribute of your DataFrame to see the types of each column. 
 
@@ -83,7 +96,9 @@ df.dtypes
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox
+# MAGIC %md-sandbox --i18n-be17630c-8f3a-4b0f-bd2a-3ffa71e8cc39
+# MAGIC 
+# MAGIC 
 # MAGIC <button onclick="myFunction2()" >Click for Hint</button>
 # MAGIC 
 # MAGIC <div id="myDIV2" style="display: none;">
@@ -102,7 +117,10 @@ df.dtypes
 
 # COMMAND ----------
 
-# MAGIC %md #### Problem 3: Subset of Columns
+# MAGIC %md --i18n-80828ff9-7279-4648-8d21-c11dbe9586fb
+# MAGIC 
+# MAGIC 
+# MAGIC #### Problem 3: Subset of Columns
 # MAGIC 
 # MAGIC Select only the **`Name`** and **`Age`** columns, assigning to the new variable **`name_age_df`**.
 
@@ -114,7 +132,10 @@ name_age_df
 
 # COMMAND ----------
 
-# MAGIC %md **Check your work by running the cell below**
+# MAGIC %md --i18n-430aef6a-de3d-4e81-9d4d-edc70c652b0b
+# MAGIC 
+# MAGIC 
+# MAGIC **Check your work by running the cell below**
 # MAGIC 
 # MAGIC The assert below uses [**iloc**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.iloc.html) to do integer-location based indexing for selection by position.
 
@@ -130,7 +151,10 @@ print("Test passed!")
 
 # COMMAND ----------
 
-# MAGIC %md #### Problem 4: Create a New Column
+# MAGIC %md --i18n-c99a51f7-7d44-4354-955e-5c338b1ae957
+# MAGIC 
+# MAGIC  
+# MAGIC #### Problem 4: Create a New Column
 # MAGIC 
 # MAGIC Let's assume one year in dog years is equal to 7 years in human years. Create a new column called **`Human Age`** in our **`df`** that takes the dog's age and multiples it by 7.
 
@@ -142,7 +166,10 @@ df
 
 # COMMAND ----------
 
-# MAGIC %md **Check your work by running the cell below**
+# MAGIC %md --i18n-a57f04d2-d9d2-4391-95c2-41311385e754
+# MAGIC 
+# MAGIC 
+# MAGIC **Check your work by running the cell below**
 
 # COMMAND ----------
 
@@ -156,7 +183,10 @@ print("Test passed!")
 
 # COMMAND ----------
 
-# MAGIC %md #### Problem 5: Extract a value
+# MAGIC %md --i18n-9b3bf30d-b799-4d63-9096-fef33ffb9203
+# MAGIC 
+# MAGIC 
+# MAGIC #### Problem 5: Extract a value
 # MAGIC 
 # MAGIC Programmatically extract Buddy's **`Breed`** from the DataFrame and assign it to the given **`breed`** variable.
 
@@ -168,7 +198,10 @@ breed
 
 # COMMAND ----------
 
-# MAGIC %md **Check your work by running the cell below**
+# MAGIC %md --i18n-86d48db8-6cdd-4c7b-93af-f638b9c9cd3a
+# MAGIC 
+# MAGIC  
+# MAGIC **Check your work by running the cell below**
 
 # COMMAND ----------
 

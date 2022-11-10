@@ -7,7 +7,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-b727a43d-1c18-45fd-839f-48e76d96acba
+# MAGIC 
+# MAGIC 
 # MAGIC # Additional Resources
 # MAGIC 
 # MAGIC ## ![Spark Logo Tiny](https://files.training.databricks.com/images/105/logo_spark_tiny.png) In this lesson you:<br>
@@ -16,7 +18,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md ### Continuing with Python
+# MAGIC %md --i18n-76e495f5-b60b-40f4-8d17-35fd4c08fe62
+# MAGIC 
+# MAGIC 
+# MAGIC ### Continuing with Python
 # MAGIC 
 # MAGIC Congratulations for making it this far! This course just scratched the surface of what's possible with python and data analysis. To continue your journey, take a look at the following resources. [You can also check out more courses by Databricks.](https://academy.databricks.com)
 # MAGIC 

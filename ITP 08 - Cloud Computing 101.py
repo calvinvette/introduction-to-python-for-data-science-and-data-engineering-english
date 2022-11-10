@@ -7,7 +7,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-a18d57e2-019d-45b4-9ba4-b704a190ff0a
+# MAGIC 
+# MAGIC 
 # MAGIC # Cloud Computing 101
 # MAGIC ## ![Spark Logo Tiny](https://files.training.databricks.com/images/105/logo_spark_tiny.png) In this lesson you:<br>
 # MAGIC - Contrast local vs on-prem vs cloud computing
@@ -16,7 +18,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-4e55ca41-dc1d-4f3f-9162-8b418a85c60e
+# MAGIC 
+# MAGIC 
 # MAGIC #### Local Execution
 # MAGIC 
 # MAGIC Local execution refers to when you're leveraging only the compute of your local machine to execute code. For example, you're a data scientist running Jupyter notebooks locally on your laptop. 
@@ -25,7 +29,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-7d43d290-d840-449b-875e-063186261763
+# MAGIC 
+# MAGIC 
 # MAGIC #### On-Prem
 # MAGIC 
 # MAGIC On-prem is short for on-premise. This refers to the situation where someone manages multiple computers that communicate with each other to store data and run code. This offers significantly more compute power and storage than a single machine. 
@@ -37,7 +43,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox
+# MAGIC %md-sandbox --i18n-232b8ed7-36c8-4e48-88d3-5c17143e3d76
+# MAGIC 
+# MAGIC 
 # MAGIC #### Cloud
 # MAGIC 
 # MAGIC Managing an on-prem system is difficult, expensive, and scales poorly. An popular alternative is to rent storage and computer power from cloud providers. 
@@ -51,7 +59,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md #### Virtual Machines
+# MAGIC %md --i18n-a5697312-b91f-4f54-bb69-2b835a9bd278
+# MAGIC 
+# MAGIC 
+# MAGIC #### Virtual Machines
 # MAGIC 
 # MAGIC In a cloud based setting we use computers managed by cloud providers to run code and store data. 
 # MAGIC 
@@ -63,7 +74,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md #### Cloud Storage
+# MAGIC %md --i18n-a74616ce-3011-4c79-b0f9-f72fbfbb032e
+# MAGIC 
+# MAGIC 
+# MAGIC #### Cloud Storage
 # MAGIC 
 # MAGIC Cloud providers offer ways to store data on the cloud easily. These services use computers and software that are specialized for storing data in a reliable way that can scale well.
 # MAGIC 
@@ -77,7 +91,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox
+# MAGIC %md-sandbox --i18n-cc376440-5b2e-4d04-ae07-77c5a08b66d9
+# MAGIC 
+# MAGIC 
 # MAGIC #### Databricks
 # MAGIC 
 # MAGIC <img src="https://s3.us-west-2.amazonaws.com/files.training.databricks.com/images/databricks_cloud_overview.png" style="width:800px;height:500px;">
@@ -86,7 +102,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md #### Apache Spark
+# MAGIC %md --i18n-e631525b-075f-485e-979a-dfc8ab90973e
+# MAGIC 
+# MAGIC 
+# MAGIC #### Apache Spark
 # MAGIC 
 # MAGIC A single computer usually has the memory and computational power to perform calculations on data sets up to the size of a few gigabytes or less. Data sets larger than that either can't fit into the memory of a single computer or take an unacceptably long time for a single computer to process. For these types of "big data" use cases, we need a system that can split a large data set into smaller subsets &mdash; often referred to as **partitions** &mdash; and then distribute the processing of these data partitions across a number of computers.
 # MAGIC 
@@ -104,12 +123,16 @@
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox
+# MAGIC %md-sandbox --i18n-5b907bd3-bc39-41d1-8294-1be99f57ca26
+# MAGIC 
+# MAGIC 
 # MAGIC <img src="https://files.training.databricks.com/images/sparkcluster.png" style="width:600px;height:250px;">
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-4e483909-d12e-4a76-94e4-b5e04e726ce2
+# MAGIC 
+# MAGIC 
 # MAGIC #### Databricks File System &mdash; DBFS
 # MAGIC 
 # MAGIC Databricks File System (DBFS) is a distributed file system mounted into a Databricks workspace and available on Databricks clusters. DBFS is an abstraction on top of scalable object storage and offers the following benefits:
@@ -130,7 +153,9 @@ display(dbutils.fs.mounts())
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-a499fb6b-eb36-4732-9af9-c84329cdce8a
+# MAGIC 
+# MAGIC 
 # MAGIC #### Code Versioning and Collaboration with Git
 # MAGIC 
 # MAGIC [Git](https://git-scm.com/) is a free and open source version control system. This means that it tracks the changes to code and allows you to store different versions of a project. You can restore previous versions if needed, and it also allows for branching and merging of a project where you can create different versions of a project focused on developing different features and then combine them back together. 

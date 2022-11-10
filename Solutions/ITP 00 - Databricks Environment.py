@@ -7,7 +7,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-7eb653c9-12ee-4cf3-b03a-aed5f21fbdf9
+# MAGIC 
+# MAGIC 
 # MAGIC # The Databricks Environment
 # MAGIC 
 # MAGIC ## ![Spark Logo Tiny](https://files.training.databricks.com/images/105/logo_spark_tiny.png) In this lesson you:<br>
@@ -22,7 +24,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox
+# MAGIC %md-sandbox --i18n-0bcfecf1-eb62-41a9-b095-6afa1cc6f92b
+# MAGIC 
+# MAGIC 
 # MAGIC ## Create a Cluster
 # MAGIC 
 # MAGIC Before we can run any code, we have to set up a cluster (a cluster is what will execute the code). 
@@ -37,30 +41,32 @@
 # MAGIC 
 # MAGIC Click the **Create Cluster** button:
 # MAGIC 
-# MAGIC <img src="http://files.training.databricks.com/images/ITP/CreateCluster.png" style="width:1100px;height:300px;">
+# MAGIC <img src="http://files.training.databricks.com/images/ITP/step2.png" style="width:1100px;height:300px;">
 # MAGIC 
 # MAGIC ##### Step 3:
 # MAGIC 
 # MAGIC Add a name for the cluster, and make sure that its **Cluster mode** is set to Single Node. If you have a policy that defines a single node cluster, you can use that as well. We recommend setting a default timeout for this cluster as well. 
 # MAGIC 
-# MAGIC <img src="http://files.training.databricks.com/images/ITP/NameAndMode.png" style="width:600px;height:600px;">
+# MAGIC <img src="http://files.training.databricks.com/images/ITP/step3.png" style="width:600px;height:600px;">
 # MAGIC 
 # MAGIC ##### Step 4:
 # MAGIC 
 # MAGIC Finally, click **Create Cluster**:
 # MAGIC 
-# MAGIC <img src="http://files.training.databricks.com/images/ITP/CreateClusterFinal.png" style="width:600px;height:600px;">
+# MAGIC <img src="http://files.training.databricks.com/images/ITP/step4 (1).png" style="width:600px;height:600px;">
 # MAGIC 
 # MAGIC 
 # MAGIC ##### Step 5:
 # MAGIC 
 # MAGIC Now we can attach our notebook to the cluster.
 # MAGIC 
-# MAGIC <img src="http://files.training.databricks.com/images/ITP/SelectCluster.png" style="width:1200px;height:300px;">
+# MAGIC <img src="http://files.training.databricks.com/images/ITP/step5.png" style="width:1000px;height:400px">
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox
+# MAGIC %md-sandbox --i18n-fee29257-b1d9-49e6-a74f-53e1afc5bf29
+# MAGIC 
+# MAGIC 
 # MAGIC ## Run code
 # MAGIC 
 # MAGIC * Each notebook specifies a default language, in this case **Python**.
@@ -77,7 +83,9 @@ print("I'm running Python!")
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-0341b4d6-fc23-4ef9-a846-5aab78d85112
+# MAGIC 
+# MAGIC 
 # MAGIC ### Magic Command: &percnt;md
 # MAGIC 
 # MAGIC Our favorite Magic Command **&percnt;md** allows us to render Markdown in a cell:
@@ -121,7 +129,9 @@ print("I'm running Python!")
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-58b85c79-1640-47a8-90c2-325a2bd2e265
+# MAGIC 
+# MAGIC 
 # MAGIC ## Learning More
 # MAGIC 
 # MAGIC We like to encourage you to explore the documentation to learn more about the various features of the Databricks platform and notebooks.

@@ -7,7 +7,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-344e9b62-1ae2-43aa-99d2-c7c01d2da834
+# MAGIC 
+# MAGIC 
 # MAGIC # Functions Lab
 # MAGIC 
 # MAGIC ## ![Spark Logo Tiny](https://files.training.databricks.com/images/105/logo_spark_tiny.png) In this lab you:<br>
@@ -18,7 +20,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md #### Problem 1: Even vs. Odd
+# MAGIC %md --i18n-e2d725c2-2e5c-4f6f-b520-a4775b782efb
+# MAGIC 
+# MAGIC  
+# MAGIC #### Problem 1: Even vs. Odd
 # MAGIC 
 # MAGIC One integer operator that's very useful we have not yet seen is [modulo](https://www.w3schools.com/python/python_operators.asp), which uses the symbol **`%`**. Modulo returns the remainder of the division of two integers.
 # MAGIC 
@@ -38,7 +43,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md **Check your work:**
+# MAGIC %md --i18n-9bc17154-b90a-4197-a253-f217454795ba
+# MAGIC 
+# MAGIC 
+# MAGIC **Check your work:**
 
 # COMMAND ----------
 
@@ -50,7 +58,10 @@ print("Test passed!")
 
 # COMMAND ----------
 
-# MAGIC %md #### Problem 2: Fizz Buzz
+# MAGIC %md --i18n-0dfabbb0-d653-4330-9c4c-fb195bc54108
+# MAGIC 
+# MAGIC 
+# MAGIC #### Problem 2: Fizz Buzz
 # MAGIC 
 # MAGIC Now that you've built the basic foundations of identifying even vs odd numbers, you're ready to extend that idea to tackle one of the most common programming interview questions: Fizz Buzz.
 # MAGIC 
@@ -73,7 +84,10 @@ print("Test passed!")
 
 # COMMAND ----------
 
-# MAGIC %md **Check your work:**
+# MAGIC %md --i18n-83606571-52de-44d3-8552-b25632468989
+# MAGIC 
+# MAGIC 
+# MAGIC **Check your work:**
 
 # COMMAND ----------
 

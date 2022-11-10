@@ -7,7 +7,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-5e2b0b7f-f62f-49f4-9178-aa14bf84b5b7
+# MAGIC 
+# MAGIC 
 # MAGIC # Control Flow
 # MAGIC 
 # MAGIC ## ![Spark Logo Tiny](https://files.training.databricks.com/images/105/logo_spark_tiny.png) In this lesson you:<br>
@@ -17,7 +19,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md ## if-statement
+# MAGIC %md --i18n-adcf81b0-d6b9-4d96-8952-8535f6b05741
+# MAGIC 
+# MAGIC 
+# MAGIC ## if-statement
 # MAGIC 
 # MAGIC Python by default evaluates every line of code from top to bottom, sequentially. But what if we want to define conditional logic to control which code should be executed? 
 # MAGIC 
@@ -50,7 +55,10 @@ else:
 
 # COMMAND ----------
 
-# MAGIC %md ### Indentation
+# MAGIC %md --i18n-d521ae49-84e2-42e1-88e2-ec13549e726d
+# MAGIC 
+# MAGIC 
+# MAGIC ### Indentation
 # MAGIC 
 # MAGIC Notice the [indentation](https://www.w3schools.com/python/gloss_python_if_indentation.asp) in the **if-statement**. While this does make the code more legible, **this is actually necessary for the code to run**.
 # MAGIC 
@@ -60,7 +68,10 @@ else:
 
 # COMMAND ----------
 
-# MAGIC %md ## Operators
+# MAGIC %md --i18n-694f3cf9-552d-4daa-ab39-8f68e0d28514
+# MAGIC 
+# MAGIC 
+# MAGIC ## Operators
 # MAGIC 
 # MAGIC Now that we can use **if-statements**, let's take a look at some boolean expressions we can use with them. 
 # MAGIC 
@@ -97,7 +108,10 @@ print(True == True)
 
 # COMMAND ----------
 
-# MAGIC %md Let's use these operators to see if we should buy lunch based on its price. We'll have a budget of 15 dollars for lunch, but might be willing to go a bit over that if the food is really good.
+# MAGIC %md --i18n-12aa040d-a993-49d0-b3c8-a19fbc6b0a12
+# MAGIC 
+# MAGIC 
+# MAGIC Let's use these operators to see if we should buy lunch based on its price. We'll have a budget of 15 dollars for lunch, but might be willing to go a bit over that if the food is really good.
 
 # COMMAND ----------
 
@@ -111,7 +125,10 @@ else:
 
 # COMMAND ----------
 
-# MAGIC %md The code inside the **if** or **else** block can be anything, even another **if statement**.
+# MAGIC %md --i18n-a634486b-b213-4e83-b920-288aa64c0dc8
+# MAGIC 
+# MAGIC 
+# MAGIC The code inside the **if** or **else** block can be anything, even another **if statement**.
 
 # COMMAND ----------
 
@@ -125,7 +142,10 @@ else:
 
 # COMMAND ----------
 
-# MAGIC %md ## elif
+# MAGIC %md --i18n-ae3c161b-53c5-4e87-99af-43ddf67ea92c
+# MAGIC 
+# MAGIC 
+# MAGIC ## elif
 # MAGIC 
 # MAGIC We can expand if-statements to consider multiple boolean expressions by adding **elif statements**.
 # MAGIC 
@@ -165,7 +185,10 @@ else:
 
 # COMMAND ----------
 
-# MAGIC %md ## Dog Breed Recommendations
+# MAGIC %md --i18n-82b070bf-589d-4791-b85c-66f51b170b76
+# MAGIC 
+# MAGIC 
+# MAGIC ## Dog Breed Recommendations
 # MAGIC 
 # MAGIC Suppose we are helping people to pick a dog breed where users provide the following information:
 # MAGIC 
@@ -207,7 +230,10 @@ else:
 
 # COMMAND ----------
 
-# MAGIC %md We could also write it as shown below, making sure we are mindful of the order of boolean conditions. Remember that at the first **`True`** Python will stop. 
+# MAGIC %md --i18n-5ba1204e-82df-4060-8c87-a981b3843075
+# MAGIC 
+# MAGIC 
+# MAGIC We could also write it as shown below, making sure we are mindful of the order of boolean conditions. Remember that at the first **`True`** Python will stop. 
 
 # COMMAND ----------
 

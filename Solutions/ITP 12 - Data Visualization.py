@@ -7,7 +7,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-92f0d116-aa27-4e1f-9be2-9eb102794cf6
+# MAGIC 
+# MAGIC 
 # MAGIC # Data Visualization
 # MAGIC 
 # MAGIC ## ![Spark Logo Tiny](https://files.training.databricks.com/images/105/logo_spark_tiny.png) In this lesson you:
@@ -28,13 +30,16 @@ import pandas as pd
 
 # COMMAND ----------
 
-file_path = f"{datasets_dir}/sf-airbnb/sf-airbnb.csv".replace("dbfs:", "/dbfs")
+file_path = f"{DA.paths.datasets}/sf-airbnb/sf-airbnb.csv".replace("dbfs:", "/dbfs")
 df = pd.read_csv(file_path)
 df.head(3)
 
 # COMMAND ----------
 
-# MAGIC %md ## Built-in Plotting
+# MAGIC %md --i18n-46852d14-6b5c-4906-8a87-2d87f099bfeb
+# MAGIC 
+# MAGIC  
+# MAGIC ## Built-in Plotting
 # MAGIC 
 # MAGIC Databricks provides built in data visualization tools we can use in a Databricks notebook. 
 # MAGIC 
@@ -48,7 +53,10 @@ display(df)
 
 # COMMAND ----------
 
-# MAGIC %md ## Plot Options
+# MAGIC %md --i18n-c609e59a-b0ce-40fc-bd71-24e10730b6b6
+# MAGIC 
+# MAGIC  
+# MAGIC ## Plot Options
 # MAGIC 
 # MAGIC In order to change the kind of plot we see we can click "Plot Options" next to the bar chart icon.
 # MAGIC 
@@ -70,11 +78,17 @@ display(df)
 
 # COMMAND ----------
 
-# MAGIC %md Note that initially it only will show a preview of the first 1000 rows, but when we click **`apply`** it works on all of them.
+# MAGIC %md --i18n-6d9956db-6e60-4533-966e-1be99415c1b8
+# MAGIC 
+# MAGIC  
+# MAGIC Note that initially it only will show a preview of the first 1000 rows, but when we click **`apply`** it works on all of them.
 
 # COMMAND ----------
 
-# MAGIC %md ## Pandas Plotting
+# MAGIC %md --i18n-3c4eb78d-05a2-4133-905b-90411fffdb02
+# MAGIC 
+# MAGIC  
+# MAGIC ## Pandas Plotting
 # MAGIC 
 # MAGIC **`pandas`** also provides some plotting functionality. 
 # MAGIC 
@@ -88,7 +102,10 @@ df["bedrooms"].hist()
 
 # COMMAND ----------
 
-# MAGIC %md We can also specify the number of bins by passing an argument to **`bins`** parameter.
+# MAGIC %md --i18n-8eec6709-d9aa-499c-ab29-37d51ee8dfc1
+# MAGIC 
+# MAGIC 
+# MAGIC We can also specify the number of bins by passing an argument to **`bins`** parameter.
 
 # COMMAND ----------
 
@@ -96,7 +113,10 @@ df["bedrooms"].hist(bins=20)
 
 # COMMAND ----------
 
-# MAGIC %md We can also box plots with pandas.
+# MAGIC %md --i18n-14bed99e-90e8-4a85-bfd5-99be4ff0563e
+# MAGIC 
+# MAGIC  
+# MAGIC We can also box plots with pandas.
 # MAGIC 
 # MAGIC We use the method **`boxplot([cols])`** on a **`DataFrame`** to create a box plot for each of the specified columns:
 
@@ -106,7 +126,10 @@ df.boxplot(["bedrooms", "bathrooms"])
 
 # COMMAND ----------
 
-# MAGIC %md ## Seaborn
+# MAGIC %md --i18n-9c6d8ce4-ef18-4c32-b9e1-fe6ada690af5
+# MAGIC 
+# MAGIC  
+# MAGIC # Seaborn
 # MAGIC 
 # MAGIC [seaborn](https://seaborn.pydata.org/) is a very popular data visualization library that works with pandas DataFrames. 
 # MAGIC 
@@ -120,7 +143,10 @@ import seaborn as sns
 
 # COMMAND ----------
 
-# MAGIC %md ## Scatter plot
+# MAGIC %md --i18n-cec27556-7c8f-4991-89ad-d060836aaf98
+# MAGIC 
+# MAGIC  
+# MAGIC ## Scatter plot
 # MAGIC 
 # MAGIC Let's first create a scatter plot. We'll plot **`bedrooms`** cases on the x-axis and **`bathrooms`** on the y-axis. 
 # MAGIC 
@@ -134,7 +160,10 @@ sns.scatterplot(data=df, x="bedrooms", y="bathrooms")
 
 # COMMAND ----------
 
-# MAGIC %md You might also want to plot a line of best fit for the scatter plot. 
+# MAGIC %md --i18n-f8901310-8093-4568-944e-ac277d0b3da0
+# MAGIC 
+# MAGIC  
+# MAGIC You might also want to plot a line of best fit for the scatter plot. 
 # MAGIC 
 # MAGIC We can do this by using the same parameters but for the **`regplot()`** function:
 

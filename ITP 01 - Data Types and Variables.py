@@ -7,7 +7,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-266e48b3-da9c-4871-bff6-de6a20af9379
+# MAGIC 
+# MAGIC 
 # MAGIC # Data Types and Variables
 # MAGIC 
 # MAGIC ## ![Spark Logo Tiny](https://files.training.databricks.com/images/105/logo_spark_tiny.png) In this lesson you:<br>
@@ -26,7 +28,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md ### Calculation
+# MAGIC %md --i18n-ea37c4fe-4a41-4348-95b7-356b6516ab19
+# MAGIC 
+# MAGIC 
+# MAGIC ### Calculation
 # MAGIC 
 # MAGIC To get started, let's use Python to calculate some mathematical expressions. Can you guess what this will evaluate to?
 
@@ -36,7 +41,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md ### Comments
+# MAGIC %md --i18n-ffaf9e58-9e73-4788-9ee9-bc72b7947bef
+# MAGIC 
+# MAGIC 
+# MAGIC ### Comments
 # MAGIC 
 # MAGIC In addition to markdown cells, we can annotate our code through [comments](https://www.w3schools.com/python/python_comments.asp). Comments are optional, but can help explain a line of code in context. They are not executed.
 # MAGIC 
@@ -51,7 +59,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md ## Data Types
+# MAGIC %md --i18n-320b8d41-2b38-4158-ab74-ab765b41fc3a
+# MAGIC 
+# MAGIC 
+# MAGIC ## Data Types
 # MAGIC 
 # MAGIC Python provides basic [**Data Types**](https://www.w3schools.com/python/python_datatypes.asp), each with their own operations. 
 # MAGIC 
@@ -59,7 +70,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md ### Type 1: Integers
+# MAGIC %md --i18n-6ccd9a87-0eeb-48c5-a88b-8b2e7d5c3a04
+# MAGIC 
+# MAGIC 
+# MAGIC ### Type 1: Integers
 # MAGIC 
 # MAGIC Integers (or int) are non-decimal whole numbers. 
 # MAGIC 
@@ -74,7 +88,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md ### Type 2: Float
+# MAGIC %md --i18n-2761447d-8388-4c05-a989-c33fb441f19d
+# MAGIC 
+# MAGIC 
+# MAGIC ### Type 2: Float
 # MAGIC 
 # MAGIC Float (or floating point) is a number containing a decimal. 
 # MAGIC 
@@ -88,7 +105,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md If you are unsure what type something is, you can pass it into **`type()`**.
+# MAGIC %md --i18n-e0e8ddc7-7b39-43fc-b3d0-0f0ca04fba86
+# MAGIC 
+# MAGIC 
+# MAGIC If you are unsure what type something is, you can pass it into **`type()`**.
 
 # COMMAND ----------
 
@@ -96,7 +116,10 @@ type(1.2)
 
 # COMMAND ----------
 
-# MAGIC %md Question: Is `1.` a float or an int? Let's test it by checking its type. 
+# MAGIC %md --i18n-cb9195f7-0b63-4fae-8591-cf11bbd126f1
+# MAGIC 
+# MAGIC 
+# MAGIC Question: Is `1.` a float or an int? Let's test it by checking its type. 
 
 # COMMAND ----------
 
@@ -104,7 +127,10 @@ type(1.)
 
 # COMMAND ----------
 
-# MAGIC %md ### Type 3: Strings
+# MAGIC %md --i18n-91074620-9816-473f-b513-0fe927585dd7
+# MAGIC 
+# MAGIC 
+# MAGIC ### Type 3: Strings
 # MAGIC 
 # MAGIC Strings (or str) are a sequence of characters surrounded by quotation marks (i.e. **`""`** or **`''`**). They are just text, but can contain numbers, punctuation, etc.
 # MAGIC 
@@ -123,7 +149,10 @@ type(1.)
 
 # COMMAND ----------
 
-# MAGIC %md Notice that the concatenation operation does **not** insert a space. If we wanted "Hello 123", we would have to add a space in the string.
+# MAGIC %md --i18n-d71e6c1e-14c6-4d5e-9e33-2ef510c3780a
+# MAGIC 
+# MAGIC 
+# MAGIC Notice that the concatenation operation does **not** insert a space. If we wanted "Hello 123", we would have to add a space in the string.
 
 # COMMAND ----------
 
@@ -132,7 +161,10 @@ type(1.)
 
 # COMMAND ----------
 
-# MAGIC %md Question: If you add a float and string together, what is the result? Uncomment then execute the code below to find out.
+# MAGIC %md --i18n-d00a31cd-6762-4c37-b09d-fd626f20a36a
+# MAGIC 
+# MAGIC 
+# MAGIC Question: If you add a float and string together, what is the result? Uncomment then execute the code below to find out.
 
 # COMMAND ----------
 
@@ -140,7 +172,10 @@ type(1.)
 
 # COMMAND ----------
 
-# MAGIC %md ### Type 4: Boolean
+# MAGIC %md --i18n-6f69c9be-49dc-44f7-abbf-52ea2e8de36e
+# MAGIC 
+# MAGIC 
+# MAGIC ### Type 4: Boolean
 # MAGIC 
 # MAGIC Boolean (or bool) is a binary data type. There are only two boolean values: **`True`** and **`False`**.
 # MAGIC 
@@ -164,7 +199,10 @@ not False
 
 # COMMAND ----------
 
-# MAGIC %md ## Variables
+# MAGIC %md --i18n-d9f7c5fe-f1e6-408a-be83-4b6b33936f5f
+# MAGIC 
+# MAGIC 
+# MAGIC ## Variables
 # MAGIC 
 # MAGIC We can store the result of an expression in a [variable](https://www.w3schools.com/python/python_variables.asp), which we can then use to refer to the result of that expression. It's very helpful if you plan to re-use the same value multiple times. There should be only one variable assignment per line.
 # MAGIC 
@@ -186,7 +224,10 @@ c
 
 # COMMAND ----------
 
-# MAGIC %md Question: If we update the value of **`b`**, what happens to **`c`**?
+# MAGIC %md --i18n-53daff57-613e-41eb-b552-847085596e94
+# MAGIC 
+# MAGIC 
+# MAGIC Question: If we update the value of **`b`**, what happens to **`c`**?
 
 # COMMAND ----------
 
@@ -195,7 +236,10 @@ c
 
 # COMMAND ----------
 
-# MAGIC %md ### Variable State
+# MAGIC %md --i18n-ca3ddabd-7b46-4e00-8abc-21633d3f6e6a
+# MAGIC 
+# MAGIC 
+# MAGIC ### Variable State
 # MAGIC 
 # MAGIC Variables are accessible across cells in the same notebook. If you restart your cluster or detach your notebook from your cluster, you will not lose your code, but you will lose the state of the variables. 
 # MAGIC 
@@ -203,7 +247,10 @@ c
 
 # COMMAND ----------
 
-# MAGIC %md ### Weakly Typed Languages
+# MAGIC %md --i18n-a95f37de-1376-49d8-bd9a-a434561608f3
+# MAGIC 
+# MAGIC 
+# MAGIC ### Weakly Typed Languages
 # MAGIC 
 # MAGIC 
 # MAGIC Python is a *weakly typed* language. That means any variable can hold any type of value, and you can overwrite a variable to have any type of value. In other words, you can assign a new value to a variable that is of a different type than its original value.
@@ -217,7 +264,10 @@ b
 
 # COMMAND ----------
 
-# MAGIC %md ### Naming Conventions
+# MAGIC %md --i18n-79b5dfd2-134e-419f-8086-72d76d0bdd80
+# MAGIC 
+# MAGIC 
+# MAGIC ### Naming Conventions
 # MAGIC 
 # MAGIC While you can name Python variables almost anything and it will work, the general convention in Python is to use **`snake_case`**. This means all of the characters should be lower case, and spaces are replaced with an `_` character.
 # MAGIC 
@@ -235,7 +285,9 @@ my_first_variable = 2
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-1fc8e260-5dd1-4b1f-87b5-23b1469eae3e
+# MAGIC 
+# MAGIC 
 # MAGIC ## Print Statements
 # MAGIC 
 # MAGIC In Databricks or Jupyter notebooks, the result of last line executed in a cell is printed automatically.
@@ -259,7 +311,10 @@ print(b)
 
 # COMMAND ----------
 
-# MAGIC %md In addition to printing variable values, you can also print strings.
+# MAGIC %md --i18n-7f5bcd26-b2d4-4085-9215-df0c7613cb6f
+# MAGIC 
+# MAGIC 
+# MAGIC In addition to printing variable values, you can also print strings.
 
 # COMMAND ----------
 
@@ -267,7 +322,10 @@ print("Hello world")
 
 # COMMAND ----------
 
-# MAGIC %md #### f-string Formatting
+# MAGIC %md --i18n-748550c6-43bd-4265-9cff-420420ab476d
+# MAGIC 
+# MAGIC 
+# MAGIC #### f-string Formatting
 # MAGIC 
 # MAGIC You can also print out variable and strings together using [f-string](https://www.w3schools.com/python/python_string_formatting.asp) formatting. Put an **`f`** at the beginning of the quotes, and place the variable inside of curly braces. The syntax looks like **`f"optional text {insert_variable_here} optional text"`**.
 
@@ -280,7 +338,9 @@ print(f"My name is {name} and I am {age} years old")
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-973e1c76-964d-41f4-894f-98bad1ffb5b1
+# MAGIC 
+# MAGIC 
 # MAGIC **Congratulations! You have finished your first lesson on Python!**
 
 # COMMAND ----------

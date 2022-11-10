@@ -7,7 +7,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-4db476c9-19cb-4f89-ba8b-105c88ebcdea
+# MAGIC 
+# MAGIC 
 # MAGIC # Control Flow
 # MAGIC 
 # MAGIC ## ![Spark Logo Tiny](https://files.training.databricks.com/images/105/logo_spark_tiny.png) In this lab you:<br>
@@ -20,7 +22,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md ### Food Recommender
+# MAGIC %md --i18n-67b30eef-2bb7-405b-b750-905b74557169
+# MAGIC 
+# MAGIC 
+# MAGIC ### Food Recommender
 # MAGIC 
 # MAGIC For this lab, write the control flow logic for the following food recommender. Users provide the following input:
 # MAGIC 
@@ -48,7 +53,10 @@ else:
 
 # COMMAND ----------
 
-# MAGIC %md Try changing the values of **`temperature`** and **`sunny`** and make sure it recommends the proper foods!
+# MAGIC %md --i18n-50e00f9a-3fe3-41c6-8f52-d5526cb52e67
+# MAGIC 
+# MAGIC 
+# MAGIC Try changing the values of **`temperature`** and **`sunny`** and make sure it recommends the proper foods!
 
 # COMMAND ----------
 

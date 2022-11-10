@@ -7,7 +7,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-50d4a990-cefe-41dd-a439-12f7706751be
+# MAGIC 
+# MAGIC 
 # MAGIC # Classes
 # MAGIC ## ![Spark Logo Tiny](https://files.training.databricks.com/images/105/logo_spark_tiny.png) In this lab you:<br>
 # MAGIC 
@@ -17,7 +19,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox
+# MAGIC %md-sandbox --i18n-37e05756-08e7-4ec8-8583-0cf5d64eea2b
+# MAGIC 
+# MAGIC 
 # MAGIC ## Exercise: Simpson
 # MAGIC 
 # MAGIC <img src="https://i.pinimg.com/originals/13/63/37/13633734d116fe188af57fe9da7d095e.jpg" style="height:400">
@@ -38,7 +42,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md **Check your work:**
+# MAGIC %md --i18n-b3b3aa47-1699-4d9e-806d-fa84134c143f
+# MAGIC 
+# MAGIC 
+# MAGIC **Check your work:**
 
 # COMMAND ----------
 

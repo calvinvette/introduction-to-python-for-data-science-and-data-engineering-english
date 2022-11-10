@@ -7,7 +7,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-9ad87fe1-fe24-4e65-b474-b126fe0cd797
+# MAGIC 
+# MAGIC 
 # MAGIC # Libraries
 # MAGIC ## ![Spark Logo Tiny](https://files.training.databricks.com/images/105/logo_spark_tiny.png) In this lesson you:<br>
 # MAGIC - Explore the Databricks **%run** feature
@@ -15,7 +17,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md ### %run
+# MAGIC %md --i18n-d2d8408c-f293-45e1-a6a7-68b5fd4e5ea5
+# MAGIC 
+# MAGIC 
+# MAGIC ### %run
 # MAGIC 
 # MAGIC So far, we have been running individual cells in a single notebook or using **Run All** in the notebook toolbar to run all of the executable command cells in sequence from top to bottom.
 # MAGIC 
@@ -31,7 +36,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md The example notebook contains defines the function **`greet()`**, which takes in a name and returns a greeting. Since we now have access to that notebook's state, we can use **`greet()`** even though it was not defined in the notebook. This is a useful way to define & test helper functions without cluttering up your main notebook.
+# MAGIC %md --i18n-099718a4-1515-4d0a-b2b5-a0f5a1541129
+# MAGIC 
+# MAGIC 
+# MAGIC The example notebook contains defines the function **`greet()`**, which takes in a name and returns a greeting. Since we now have access to that notebook's state, we can use **`greet()`** even though it was not defined in the notebook. This is a useful way to define & test helper functions without cluttering up your main notebook.
 
 # COMMAND ----------
 
@@ -39,7 +47,10 @@ greet("Bob")
 
 # COMMAND ----------
 
-# MAGIC %md ### PyPI and Python Libraries
+# MAGIC %md --i18n-450fa743-e6f9-4dd3-95ae-da18a436fa7c
+# MAGIC 
+# MAGIC 
+# MAGIC ### PyPI and Python Libraries
 # MAGIC 
 # MAGIC This idea of storing collections of useful definitions in libraries to access in different files extends beyond the Databricks Environment. In fact, when Python is installed on a system it usually includes a useful collection of utilities called the [Python Standard Library](https://docs.python.org/3/library/). Furthermore, developers can share any libraries they create with the Python community by uploading them online. 
 # MAGIC 
@@ -50,7 +61,10 @@ greet("Bob")
 
 # COMMAND ----------
 
-# MAGIC %md #### pip
+# MAGIC %md --i18n-868481bc-9374-4770-b046-a27e395e4bc8
+# MAGIC 
+# MAGIC 
+# MAGIC #### pip
 # MAGIC 
 # MAGIC pip is the tool most often used to actually download a library from PyPI. It is usually included in your Python installation. 
 # MAGIC 
@@ -66,7 +80,10 @@ greet("Bob")
 
 # COMMAND ----------
 
-# MAGIC %md The following code cell will restart the Python interpreter, which means you will have to re-run the `./Includes/run_example` notebook to have access to `greet()`.
+# MAGIC %md --i18n-4c16a8f1-d12a-4ce0-bbd5-053280b4e96b
+# MAGIC 
+# MAGIC 
+# MAGIC The following code cell will restart the Python interpreter, which means you will have to re-run the `./Includes/run_example` notebook to have access to `greet()`.
 
 # COMMAND ----------
 
@@ -74,7 +91,10 @@ greet("Bob")
 
 # COMMAND ----------
 
-# MAGIC %md Fortunately, our Databricks environment comes with several useful libraries preinstalled, including **`numpy`**, so we will only have to import the one we want.
+# MAGIC %md --i18n-a1d330d7-a006-4079-809b-02a4736f497f
+# MAGIC 
+# MAGIC 
+# MAGIC Fortunately, our Databricks environment comes with several useful libraries preinstalled, including **`numpy`**, so we will only have to import the one we want.
 # MAGIC 
 # MAGIC Let's say we wanted a function to take the square root of a number. Python doesn't have this built-in but <a href="https://numpy.org/doc/stable/" target="_blank">numpy</a> does.
 # MAGIC 
@@ -86,7 +106,10 @@ import numpy
 
 # COMMAND ----------
 
-# MAGIC %md Now to access functions defined in the **`numpy`** library once imported, you write **`numpy.function_name(arguments)`**.
+# MAGIC %md --i18n-be36835e-e871-4d95-a546-004b0c36031f
+# MAGIC 
+# MAGIC 
+# MAGIC Now to access functions defined in the **`numpy`** library once imported, you write **`numpy.function_name(arguments)`**.
 # MAGIC 
 # MAGIC Let's see this for the square root function which is defined in numpy as **`sqrt(arguments)`**.
 
@@ -96,7 +119,10 @@ numpy.sqrt(4.0)
 
 # COMMAND ----------
 
-# MAGIC %md We can create an alias when importing the library as well.
+# MAGIC %md --i18n-cad7f412-9c0a-4bb6-9808-5e94bb9fca43
+# MAGIC 
+# MAGIC 
+# MAGIC We can create an alias when importing the library as well.
 
 # COMMAND ----------
 
@@ -106,7 +132,10 @@ np.sqrt(4.0)
 
 # COMMAND ----------
 
-# MAGIC %md We can also import specific functions from libraries.
+# MAGIC %md --i18n-1df20310-0c7a-4315-a514-fcdf70bddcd9
+# MAGIC 
+# MAGIC 
+# MAGIC We can also import specific functions from libraries.
 
 # COMMAND ----------
 
@@ -116,7 +145,10 @@ sqrt(4.0)
 
 # COMMAND ----------
 
-# MAGIC %md #### `help()`
+# MAGIC %md --i18n-7ca81733-cafe-43fc-af1a-f6e81ef82cbd
+# MAGIC 
+# MAGIC 
+# MAGIC #### `help()`
 # MAGIC 
 # MAGIC Recall the **`help()`** function that displays documentation for the item passed into it. We can use **`help()`** both on a library and anything defined in that library.
 
@@ -130,7 +162,10 @@ help(np.sqrt)
 
 # COMMAND ----------
 
-# MAGIC %md Note that while creating a library is outside the scope of this introductory course, all of the functions and classes they define are defined in the same way we have seen.
+# MAGIC %md --i18n-017e2ccc-17b6-4711-a356-a7895414a943
+# MAGIC 
+# MAGIC 
+# MAGIC Note that while creating a library is outside the scope of this introductory course, all of the functions and classes they define are defined in the same way we have seen.
 
 # COMMAND ----------
 

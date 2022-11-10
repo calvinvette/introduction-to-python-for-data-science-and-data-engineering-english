@@ -7,7 +7,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-1818ed45-df1d-4a39-8074-e2841494477c
+# MAGIC 
+# MAGIC 
 # MAGIC # Data Types and Variables Lab
 # MAGIC 
 # MAGIC ## Exercise:
@@ -27,7 +29,10 @@ print(chocolate_string)
 
 # COMMAND ----------
 
-# MAGIC %md **Check your work:**
+# MAGIC %md --i18n-d156910a-4562-4a24-bc6e-2d3ed9826f24
+# MAGIC 
+# MAGIC 
+# MAGIC **Check your work:**
 # MAGIC 
 # MAGIC For labs, we will have **Check your work** cells like the following after most questions. After you complete a question, run the cell to make sure you did it correctly. 
 # MAGIC 

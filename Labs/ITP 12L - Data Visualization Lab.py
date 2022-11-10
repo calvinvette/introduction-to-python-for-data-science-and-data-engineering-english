@@ -7,7 +7,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md
+# MAGIC %md --i18n-d6c49d6f-2235-4e65-b012-70bf6850330c
+# MAGIC 
+# MAGIC 
 # MAGIC # Data Visualization Lab
 # MAGIC 
 # MAGIC Let's import **`pandas`** and **`seaborn`**, then load the avocado dataset to perform data visualizations/analyses.
@@ -26,14 +28,17 @@ sns.set(rc = {"figure.figsize": (15,8)})
 
 # COMMAND ----------
 
-file_path = f"{datasets_dir}/avocado/avocado.csv".replace("dbfs:", "/dbfs")
+file_path = f"{DA.paths.datasets}/avocado/avocado.csv".replace("dbfs:", "/dbfs")
 # Dropping incorrect index column.
 df = pd.read_csv(file_path).drop("Unnamed: 0", axis=1) 
 df
 
 # COMMAND ----------
 
-# MAGIC %md ## Problem 1: Databricks Plotting
+# MAGIC %md --i18n-faba5cfc-f9cd-4012-845c-117fb3f184fa
+# MAGIC 
+# MAGIC 
+# MAGIC ## Problem 1: Databricks Plotting
 # MAGIC 
 # MAGIC Using the built-in plotting feature in Databricks to plot the average **`Total Volume`** per **`year`**.
 # MAGIC 
@@ -45,7 +50,9 @@ df
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox
+# MAGIC %md-sandbox --i18n-4c4c04ec-8c7c-4dfe-b680-fc6e5e7a254f
+# MAGIC 
+# MAGIC 
 # MAGIC <button onclick="myFunction2()" >Click for Hint</button>
 # MAGIC 
 # MAGIC <div id="myDIV2" style="display: none;">
@@ -64,7 +71,10 @@ df
 
 # COMMAND ----------
 
-# MAGIC %md ## Problem 2: `pandas` plotting
+# MAGIC %md --i18n-0ee316c5-f8b7-441c-9326-05eb0e4fac6e
+# MAGIC 
+# MAGIC 
+# MAGIC ## Problem 2: `pandas` plotting
 # MAGIC 
 # MAGIC Create a histogram of the **`AveragePrice`** of avocados using the pandas **`.hist()`** method.
 
@@ -74,7 +84,9 @@ df
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox
+# MAGIC %md-sandbox --i18n-da21fa24-e730-4641-ace0-100da86d2c4f
+# MAGIC 
+# MAGIC 
 # MAGIC <button onclick="myFunction2()" >Click for Hint</button>
 # MAGIC 
 # MAGIC <div id="myDIV2" style="display: none;">
@@ -93,7 +105,10 @@ df
 
 # COMMAND ----------
 
-# MAGIC %md ## Datetime
+# MAGIC %md --i18n-00f37c99-64bb-4b48-b73f-f5b69310645a
+# MAGIC 
+# MAGIC 
+# MAGIC ## Datetime
 # MAGIC 
 # MAGIC Unfortunately, our **`Date`** column is represented as an object type, when we want it to be a **`datetime`** type so we can do operations based on time (e.g. plot in chronological order instead of lexicographical order).  
 # MAGIC 
@@ -111,7 +126,10 @@ df.dtypes
 
 # COMMAND ----------
 
-# MAGIC %md ## Problem 3: `seaborn` plotting
+# MAGIC %md --i18n-40b4972b-d755-4c4f-ac64-02a57ca8e9f2
+# MAGIC 
+# MAGIC 
+# MAGIC ## Problem 3: `seaborn` plotting
 # MAGIC 
 # MAGIC Using **`seaborn`**, which is aliased as **`sns`** from above, create a scatter plot for the Total Volume of organic avocado sales over time for all of the US (e.g. filter on **`region`** for the **`TotalUS`** region & on **`type`** for just **`organic`**). Select **`Date`** as the x-axis.
 
@@ -121,7 +139,9 @@ df.dtypes
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox
+# MAGIC %md-sandbox --i18n-47287cb5-ea6b-43bd-ac47-f84d5355a1a3
+# MAGIC 
+# MAGIC 
 # MAGIC <button onclick="myFunction2()" >Click for Hint</button>
 # MAGIC 
 # MAGIC <div id="myDIV2" style="display: none;">
@@ -140,7 +160,10 @@ df.dtypes
 
 # COMMAND ----------
 
-# MAGIC %md ## Problem 4: What about conventional avocados?
+# MAGIC %md --i18n-4fd56628-9c66-44a8-9b2d-bad0552fb619
+# MAGIC 
+# MAGIC 
+# MAGIC ## Problem 4: What about conventional avocados?
 # MAGIC 
 # MAGIC Create the same scatter plot except with conventional avocados instead of organic ones. What differences do you notice between the two? Notice the axis scales.
 
@@ -150,7 +173,9 @@ df.dtypes
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox
+# MAGIC %md-sandbox --i18n-2e5c4b7b-0b50-41f0-8936-e407defce6dd
+# MAGIC 
+# MAGIC 
 # MAGIC <button onclick="myFunction2()" >Click for Hint</button>
 # MAGIC 
 # MAGIC <div id="myDIV2" style="display: none;">

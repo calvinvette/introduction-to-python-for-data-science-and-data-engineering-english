@@ -7,19 +7,15 @@
 
 # COMMAND ----------
 
-username = spark.sql("SELECT current_user()").first()[0]
-course_dir = f"file:///dbfs/user/{username}/dbacademy/introduction_to_python_for_data_science_and_data_engineering"
-
-print(f"Removing course directory: {course_dir}")
-dbutils.fs.rm(course_dir, True)
+# MAGIC %run ./_common
 
 # COMMAND ----------
 
-# MAGIC %run "./Classroom-Setup"
+lesson_config.create_schema = False
+lesson_config.installing_datasets = False
 
-# COMMAND ----------
-
-display(dbutils.fs.ls(datasets_dir))
+DA = DBAcademyHelper(course_config, lesson_config)
+DA.reset_learning_environment()
 
 # COMMAND ----------
 
