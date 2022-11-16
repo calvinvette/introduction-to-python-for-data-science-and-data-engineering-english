@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-266e48b3-da9c-4871-bff6-de6a20af9379
+# MAGIC %md <i18n value="266e48b3-da9c-4871-bff6-de6a20af9379"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Data Types and Variables
@@ -28,7 +28,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-ea37c4fe-4a41-4348-95b7-356b6516ab19
+# MAGIC %md <i18n value="ea37c4fe-4a41-4348-95b7-356b6516ab19"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Calculation
@@ -41,7 +41,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-ffaf9e58-9e73-4788-9ee9-bc72b7947bef
+# MAGIC %md <i18n value="ffaf9e58-9e73-4788-9ee9-bc72b7947bef"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Comments
@@ -59,7 +59,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-320b8d41-2b38-4158-ab74-ab765b41fc3a
+# MAGIC %md <i18n value="320b8d41-2b38-4158-ab74-ab765b41fc3a"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Data Types
@@ -70,7 +70,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-6ccd9a87-0eeb-48c5-a88b-8b2e7d5c3a04
+# MAGIC %md <i18n value="6ccd9a87-0eeb-48c5-a88b-8b2e7d5c3a04"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Type 1: Integers
@@ -88,7 +88,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-2761447d-8388-4c05-a989-c33fb441f19d
+# MAGIC %md <i18n value="2761447d-8388-4c05-a989-c33fb441f19d"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Type 2: Float
@@ -105,7 +105,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-e0e8ddc7-7b39-43fc-b3d0-0f0ca04fba86
+# MAGIC %md <i18n value="e0e8ddc7-7b39-43fc-b3d0-0f0ca04fba86"/>
 # MAGIC 
 # MAGIC 
 # MAGIC If you are unsure what type something is, you can pass it into **`type()`**.
@@ -116,10 +116,10 @@ type(1.2)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-cb9195f7-0b63-4fae-8591-cf11bbd126f1
+# MAGIC %md <i18n value="cb9195f7-0b63-4fae-8591-cf11bbd126f1"/>
 # MAGIC 
 # MAGIC 
-# MAGIC Question: Is `1.` a float or an int? Let's test it by checking its type. 
+# MAGIC Question: Is `1.` a float or an int? Let's test it by checking its type.
 
 # COMMAND ----------
 
@@ -127,7 +127,7 @@ type(1.)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-91074620-9816-473f-b513-0fe927585dd7
+# MAGIC %md <i18n value="91074620-9816-473f-b513-0fe927585dd7"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Type 3: Strings
@@ -140,7 +140,7 @@ type(1.)
 # MAGIC 
 # MAGIC **Example Operations**: Concatenation (+)
 # MAGIC 
-# MAGIC Note that when you use the `+` operator on an integer or float it adds the values, but for strings it concatenates them. The operations differ between types. 
+# MAGIC Note that when you use the `+` operator on an integer or float it adds the values, but for strings it concatenates them. The operations differ between types.
 
 # COMMAND ----------
 
@@ -149,7 +149,7 @@ type(1.)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-d71e6c1e-14c6-4d5e-9e33-2ef510c3780a
+# MAGIC %md <i18n value="d71e6c1e-14c6-4d5e-9e33-2ef510c3780a"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Notice that the concatenation operation does **not** insert a space. If we wanted "Hello 123", we would have to add a space in the string.
@@ -161,7 +161,7 @@ type(1.)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-d00a31cd-6762-4c37-b09d-fd626f20a36a
+# MAGIC %md <i18n value="d00a31cd-6762-4c37-b09d-fd626f20a36a"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Question: If you add a float and string together, what is the result? Uncomment then execute the code below to find out.
@@ -172,7 +172,7 @@ type(1.)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-6f69c9be-49dc-44f7-abbf-52ea2e8de36e
+# MAGIC %md <i18n value="6f69c9be-49dc-44f7-abbf-52ea2e8de36e"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Type 4: Boolean
@@ -199,7 +199,7 @@ not False
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-d9f7c5fe-f1e6-408a-be83-4b6b33936f5f
+# MAGIC %md <i18n value="d9f7c5fe-f1e6-408a-be83-4b6b33936f5f"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Variables
@@ -224,7 +224,7 @@ c
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-53daff57-613e-41eb-b552-847085596e94
+# MAGIC %md <i18n value="53daff57-613e-41eb-b552-847085596e94"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Question: If we update the value of **`b`**, what happens to **`c`**?
@@ -236,7 +236,7 @@ c
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-ca3ddabd-7b46-4e00-8abc-21633d3f6e6a
+# MAGIC %md <i18n value="ca3ddabd-7b46-4e00-8abc-21633d3f6e6a"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Variable State
@@ -247,7 +247,7 @@ c
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-a95f37de-1376-49d8-bd9a-a434561608f3
+# MAGIC %md <i18n value="a95f37de-1376-49d8-bd9a-a434561608f3"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Weakly Typed Languages
@@ -255,7 +255,7 @@ c
 # MAGIC 
 # MAGIC Python is a *weakly typed* language. That means any variable can hold any type of value, and you can overwrite a variable to have any type of value. In other words, you can assign a new value to a variable that is of a different type than its original value.
 # MAGIC 
-# MAGIC In contrast, *strongly typed* languages &mdash; such as C and Java &mdash; do not allow this. 
+# MAGIC In contrast, *strongly typed* languages &mdash; such as C and Java &mdash; do not allow this.
 
 # COMMAND ----------
 
@@ -264,7 +264,7 @@ b
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-79b5dfd2-134e-419f-8086-72d76d0bdd80
+# MAGIC %md <i18n value="79b5dfd2-134e-419f-8086-72d76d0bdd80"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Naming Conventions
@@ -285,7 +285,7 @@ my_first_variable = 2
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-1fc8e260-5dd1-4b1f-87b5-23b1469eae3e
+# MAGIC %md <i18n value="1fc8e260-5dd1-4b1f-87b5-23b1469eae3e"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Print Statements
@@ -311,7 +311,7 @@ print(b)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-7f5bcd26-b2d4-4085-9215-df0c7613cb6f
+# MAGIC %md <i18n value="7f5bcd26-b2d4-4085-9215-df0c7613cb6f"/>
 # MAGIC 
 # MAGIC 
 # MAGIC In addition to printing variable values, you can also print strings.
@@ -322,7 +322,7 @@ print("Hello world")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-748550c6-43bd-4265-9cff-420420ab476d
+# MAGIC %md <i18n value="748550c6-43bd-4265-9cff-420420ab476d"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### f-string Formatting
@@ -338,7 +338,7 @@ print(f"My name is {name} and I am {age} years old")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-973e1c76-964d-41f4-894f-98bad1ffb5b1
+# MAGIC %md <i18n value="973e1c76-964d-41f4-894f-98bad1ffb5b1"/>
 # MAGIC 
 # MAGIC 
 # MAGIC **Congratulations! You have finished your first lesson on Python!**

@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-b727a43d-1c18-45fd-839f-48e76d96acba
+# MAGIC %md <i18n value="b727a43d-1c18-45fd-839f-48e76d96acba"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Additional Resources
@@ -18,7 +18,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-76e495f5-b60b-40f4-8d17-35fd4c08fe62
+# MAGIC %md <i18n value="76e495f5-b60b-40f4-8d17-35fd4c08fe62"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Continuing with Python

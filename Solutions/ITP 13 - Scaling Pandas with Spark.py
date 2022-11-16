@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-77c31689-d17b-4d25-b97b-53e046c50b10
+# MAGIC %md <i18n value="77c31689-d17b-4d25-b97b-53e046c50b10"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Scaling Pandas with Spark
@@ -19,7 +19,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-8fad101f-86e7-4d33-9792-83cd3c87c23e
+# MAGIC %md <i18n value="8fad101f-86e7-4d33-9792-83cd3c87c23e"/>
 # MAGIC 
 # MAGIC 
 # MAGIC 
@@ -33,7 +33,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-9112c122-6e72-4fe2-85f3-c1786b8d0620
+# MAGIC %md <i18n value="9112c122-6e72-4fe2-85f3-c1786b8d0620"/>
 # MAGIC 
 # MAGIC  
 # MAGIC 
@@ -53,7 +53,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-812c6711-72b9-464c-86f8-66b93dd7e0d2
+# MAGIC %md <i18n value="812c6711-72b9-464c-86f8-66b93dd7e0d2"/>
 # MAGIC 
 # MAGIC  
 # MAGIC ## InternalFrame
@@ -70,7 +70,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-118a32b5-df6e-4679-884c-8077c2d6aa09
+# MAGIC %md <i18n value="118a32b5-df6e-4679-884c-8077c2d6aa09"/>
 # MAGIC 
 # MAGIC  
 # MAGIC ### Read in the dataset
@@ -85,10 +85,10 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-a5801cbc-ab2a-444a-ad8a-a96791cf0596
+# MAGIC %md <i18n value="a5801cbc-ab2a-444a-ad8a-a96791cf0596"/>
 # MAGIC 
 # MAGIC  
-# MAGIC Just like how we can read in data from a CSV file in pandas, we can read in data from a file in spark. 
+# MAGIC Just like how we can read in data from a CSV file in pandas, we can read in data from a file in spark.
 
 # COMMAND ----------
 
@@ -97,7 +97,7 @@ display(spark_df)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-8f40703f-c097-4532-9bae-d56b07dd6907
+# MAGIC %md <i18n value="8f40703f-c097-4532-9bae-d56b07dd6907"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Read in CSV with pandas
@@ -111,7 +111,7 @@ pandas_df.head()
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-3092efbf-6f55-45ca-9ec7-4a45250d55f5
+# MAGIC %md <i18n value="3092efbf-6f55-45ca-9ec7-4a45250d55f5"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Read in CSV with pandas API on Spark. You'll notice pandas API on Spark generates an index column for you, like in pandas.
@@ -125,7 +125,7 @@ df.head()
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-ec4b222c-7a5f-49d7-a913-bc5a1c6c269f
+# MAGIC %md <i18n value="ec4b222c-7a5f-49d7-a913-bc5a1c6c269f"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### <a href="https://koalas.readthedocs.io/en/latest/user_guide/options.html#default-index-type" target="_blank">Index Types</a>
@@ -140,14 +140,14 @@ df_dist_sequence.head()
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-2fd38d18-35ae-4971-825f-a6fd5cbc7b64
+# MAGIC %md <i18n value="2fd38d18-35ae-4971-825f-a6fd5cbc7b64"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Converting to pandas API on Spark DataFrame to/from Spark DataFrame
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-43331470-511a-4975-b075-3cf006da4e23
+# MAGIC %md <i18n value="43331470-511a-4975-b075-3cf006da4e23"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Creating a pandas API on Spark DataFrame from PySpark DataFrame
@@ -159,7 +159,7 @@ display(df)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-9579fb05-e9a2-4774-a4ad-d1988e0249ea
+# MAGIC %md <i18n value="9579fb05-e9a2-4774-a4ad-d1988e0249ea"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Alternative way of creating a pandas API on Spark DataFrame from PySpark DataFrame
@@ -171,7 +171,7 @@ display(df)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-22d68896-91dc-432b-afd8-94bdfb962c09
+# MAGIC %md <i18n value="22d68896-91dc-432b-afd8-94bdfb962c09"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Go from a pandas API on Spark DataFrame to a Spark DataFrame
@@ -182,14 +182,14 @@ display(df.to_spark())
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-523332ab-1890-411e-a830-f81476dc0aba
+# MAGIC %md <i18n value="523332ab-1890-411e-a830-f81476dc0aba"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Value Counts
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-d76a4309-2ad4-4ba9-9948-96d3f1dab224
+# MAGIC %md <i18n value="d76a4309-2ad4-4ba9-9948-96d3f1dab224"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Get value counts of the different property types with PySpark
@@ -200,7 +200,7 @@ display(spark_df.groupby("property_type").count().orderBy("count", ascending=Fal
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-63d5ecb1-8d6f-47fd-882f-8dd9d13d9748
+# MAGIC %md <i18n value="63d5ecb1-8d6f-47fd-882f-8dd9d13d9748"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Get value counts of the different property types with pandas API on Spark
@@ -211,7 +211,7 @@ df["property_type"].value_counts()
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-cb1c7961-4a96-4c18-9e0b-b9bbd35d5096
+# MAGIC %md <i18n value="cb1c7961-4a96-4c18-9e0b-b9bbd35d5096"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Visualizations
@@ -227,7 +227,7 @@ df["bedrooms"].hist(bins=20)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-f449a17a-d308-4729-9696-4f6d804168f6
+# MAGIC %md <i18n value="f449a17a-d308-4729-9696-4f6d804168f6"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### SQL on pandas API on Spark DataFrames
@@ -238,7 +238,7 @@ ps.sql("SELECT distinct(property_type) FROM {df}", df=df)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-b9935020-093d-44f1-b84d-95b676d0d7cc
+# MAGIC %md <i18n value="b9935020-093d-44f1-b84d-95b676d0d7cc"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Interesting Facts

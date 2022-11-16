@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-a951a3d5-c3dd-47f3-baf8-5ac6e51da1b8
+# MAGIC %md <i18n value="a951a3d5-c3dd-47f3-baf8-5ac6e51da1b8"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Pandas Lab
@@ -16,7 +16,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-1eff4d5c-13cc-431f-9c45-e8d1ecb66998
+# MAGIC %md <i18n value="1eff4d5c-13cc-431f-9c45-e8d1ecb66998"/>
 # MAGIC 
 # MAGIC  
 # MAGIC #### Problem 1: Create a `DataFrame`
@@ -28,7 +28,7 @@
 # MAGIC | Buddy   | 3    | Australian Shepherd |
 # MAGIC | Harley    | 10       | Labrador |
 # MAGIC | Luna     | 2       | Golden Retriever | 
-# MAGIC | Bailey | 8 | Chihuahua |  
+# MAGIC | Bailey | 8 | Chihuahua |
 
 # COMMAND ----------
 
@@ -46,7 +46,7 @@ df
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox --i18n-73936461-b0a9-47d0-b13c-8dec39331fdb
+# MAGIC %md-sandbox <i18n value="73936461-b0a9-47d0-b13c-8dec39331fdb"/>
 # MAGIC 
 # MAGIC 
 # MAGIC <button onclick="myFunction2()" >Click for Hint</button>
@@ -67,7 +67,7 @@ df
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-e287fd23-3bce-450c-9804-35dd232d0e00
+# MAGIC %md <i18n value="e287fd23-3bce-450c-9804-35dd232d0e00"/>
 # MAGIC 
 # MAGIC 
 # MAGIC **Check your work by running the cell below**
@@ -83,12 +83,12 @@ print("Test passed!")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-4a340577-c141-4e6f-8145-031dfa879b32
+# MAGIC %md <i18n value="4a340577-c141-4e6f-8145-031dfa879b32"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### Problem 2: What are the `dtypes`?
 # MAGIC 
-# MAGIC Print out the **`dtypes`** attribute of your DataFrame to see the types of each column. 
+# MAGIC Print out the **`dtypes`** attribute of your DataFrame to see the types of each column.
 
 # COMMAND ----------
 
@@ -96,7 +96,7 @@ print("Test passed!")
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox --i18n-be17630c-8f3a-4b0f-bd2a-3ffa71e8cc39
+# MAGIC %md-sandbox <i18n value="be17630c-8f3a-4b0f-bd2a-3ffa71e8cc39"/>
 # MAGIC 
 # MAGIC 
 # MAGIC <button onclick="myFunction2()" >Click for Hint</button>
@@ -117,7 +117,7 @@ print("Test passed!")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-80828ff9-7279-4648-8d21-c11dbe9586fb
+# MAGIC %md <i18n value="80828ff9-7279-4648-8d21-c11dbe9586fb"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### Problem 3: Subset of Columns
@@ -132,7 +132,7 @@ name_age_df
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-430aef6a-de3d-4e81-9d4d-edc70c652b0b
+# MAGIC %md <i18n value="430aef6a-de3d-4e81-9d4d-edc70c652b0b"/>
 # MAGIC 
 # MAGIC 
 # MAGIC **Check your work by running the cell below**
@@ -151,7 +151,7 @@ print("Test passed!")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-c99a51f7-7d44-4354-955e-5c338b1ae957
+# MAGIC %md <i18n value="c99a51f7-7d44-4354-955e-5c338b1ae957"/>
 # MAGIC 
 # MAGIC  
 # MAGIC #### Problem 4: Create a New Column
@@ -164,7 +164,7 @@ print("Test passed!")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-a57f04d2-d9d2-4391-95c2-41311385e754
+# MAGIC %md <i18n value="a57f04d2-d9d2-4391-95c2-41311385e754"/>
 # MAGIC 
 # MAGIC 
 # MAGIC **Check your work by running the cell below**
@@ -181,7 +181,7 @@ print("Test passed!")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-9b3bf30d-b799-4d63-9096-fef33ffb9203
+# MAGIC %md <i18n value="9b3bf30d-b799-4d63-9096-fef33ffb9203"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### Problem 5: Extract a value
@@ -196,7 +196,7 @@ breed
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-86d48db8-6cdd-4c7b-93af-f638b9c9cd3a
+# MAGIC %md <i18n value="86d48db8-6cdd-4c7b-93af-f638b9c9cd3a"/>
 # MAGIC 
 # MAGIC  
 # MAGIC **Check your work by running the cell below**

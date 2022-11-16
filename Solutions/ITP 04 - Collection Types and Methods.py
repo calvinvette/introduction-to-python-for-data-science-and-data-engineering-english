@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-d845488d-8461-4ee9-8b24-9bdff213d1fb
+# MAGIC %md <i18n value="d845488d-8461-4ee9-8b24-9bdff213d1fb"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Collection Types and Methods
@@ -20,7 +20,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-2d0178c2-f2b4-4746-82eb-5b81eec6be0e
+# MAGIC %md <i18n value="2d0178c2-f2b4-4746-82eb-5b81eec6be0e"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Objects
@@ -29,11 +29,11 @@
 # MAGIC 
 # MAGIC An [**object**](https://www.w3schools.com/python/python_classes.asp) is an instance of a specific data type. 
 # MAGIC 
-# MAGIC For example, **`1`** is an Integer, so we would call it an Integer object. **`"Hello"`** is a String, so we would call it a String object. 
+# MAGIC For example, **`1`** is an Integer, so we would call it an Integer object. **`"Hello"`** is a String, so we would call it a String object.
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-753edb8e-797e-4bf2-b6f4-4d4c952512a1
+# MAGIC %md <i18n value="753edb8e-797e-4bf2-b6f4-4d4c952512a1"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Methods: More Functionality
@@ -50,7 +50,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-2ca5b59c-4cb8-4e87-b648-166eee0aedad
+# MAGIC %md <i18n value="2ca5b59c-4cb8-4e87-b648-166eee0aedad"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### String Methods
@@ -65,18 +65,18 @@ print(greeting)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-b83c4e97-70e0-4104-90f1-12ede96a8515
+# MAGIC %md <i18n value="b83c4e97-70e0-4104-90f1-12ede96a8515"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### In-place methods
 # MAGIC 
 # MAGIC Methods are functions that act on objects, and can either perform operations in-place (modify the underlying object it was called upon) or return a new object.
 # MAGIC 
-# MAGIC Notice that the method **`upper()`** was not a stateful, in-place method as it returned a new string and did not modify the **`greeting`** variable. Take a look <a href="https://www.w3schools.com/python/python_ref_string.asp" target="_blank">W3Schools</a> provides information on other string methods in Python. 
+# MAGIC Notice that the method **`upper()`** was not a stateful, in-place method as it returned a new string and did not modify the **`greeting`** variable. Take a look <a href="https://www.w3schools.com/python/python_ref_string.asp" target="_blank">W3Schools</a> provides information on other string methods in Python.
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-bc7aa58a-5ea7-4387-96b7-189b364d56c3
+# MAGIC %md <i18n value="bc7aa58a-5ea7-4387-96b7-189b364d56c3"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Tab Completion
@@ -92,7 +92,7 @@ greeting
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-5b3151ca-f1d4-430f-8129-3cb28816c364
+# MAGIC %md <i18n value="5b3151ca-f1d4-430f-8129-3cb28816c364"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### `help()`
@@ -115,18 +115,18 @@ greeting.capitalize()
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-238070d2-fa76-43ef-a14b-2d67ef88af08
+# MAGIC %md <i18n value="238070d2-fa76-43ef-a14b-2d67ef88af08"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Methods with Collection Types
 # MAGIC 
 # MAGIC Now that we have a brief understanding of methods, let's look at some more advanced data types and the methods they provide.
 # MAGIC 
-# MAGIC We are going to look at **collection data types** next. Like the name suggests, the data in these data types is a collection of other data types. 
+# MAGIC We are going to look at **collection data types** next. Like the name suggests, the data in these data types is a collection of other data types.
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-d028dd16-da40-4c7d-b62e-650e154d1710
+# MAGIC %md <i18n value="d028dd16-da40-4c7d-b62e-650e154d1710"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Collection Type 1: Lists
@@ -153,7 +153,7 @@ type(breakfast_list)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-5ed35859-d9a4-44e0-a152-befc8855bab0
+# MAGIC %md <i18n value="5ed35859-d9a4-44e0-a152-befc8855bab0"/>
 # MAGIC 
 # MAGIC 
 # MAGIC We'll use our **`breakfast_list`** as the running example, but note that the values in a list can be of any type, as shown below.
@@ -165,7 +165,7 @@ type(breakfast_list)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-5bd3521a-76df-46d3-b5ec-07d22a896321
+# MAGIC %md <i18n value="5bd3521a-76df-46d3-b5ec-07d22a896321"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### List Methods
@@ -189,7 +189,7 @@ breakfast_list
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-668b2cdd-8135-439b-bf95-2880346ce49c
+# MAGIC %md <i18n value="668b2cdd-8135-439b-bf95-2880346ce49c"/>
 # MAGIC 
 # MAGIC 
 # MAGIC **Note:** Notice here that **`append()`** is an in-place method.
@@ -203,7 +203,7 @@ breakfast_list
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-6237eb3c-7a8b-428b-9418-4b397c163484
+# MAGIC %md <i18n value="6237eb3c-7a8b-428b-9418-4b397c163484"/>
 # MAGIC 
 # MAGIC 
 # MAGIC While we typically use **`append()`**, it is possible to append elements to a list using **`+`**.
@@ -216,7 +216,7 @@ breakfast_list
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-a4bcc594-73a3-454d-ab4d-83db2844db10
+# MAGIC %md <i18n value="a4bcc594-73a3-454d-ab4d-83db2844db10"/>
 # MAGIC 
 # MAGIC 
 # MAGIC A useful shortcut operation for this is **`+=`**.
@@ -233,7 +233,7 @@ breakfast_list
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-31cf815e-ec37-4313-b36c-84023b9a6f8c
+# MAGIC %md <i18n value="31cf815e-ec37-4313-b36c-84023b9a6f8c"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### List indexing
@@ -244,7 +244,7 @@ breakfast_list
 # MAGIC 
 # MAGIC       list_name[index]
 # MAGIC 
-# MAGIC In Python indices start from 0, so the first element of the list is 0, the second is 1, etc. 
+# MAGIC In Python indices start from 0, so the first element of the list is 0, the second is 1, etc.
 
 # COMMAND ----------
 
@@ -252,7 +252,7 @@ breakfast_list[0]
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-b86f1c49-9cc7-4699-a329-2e60bc68a774
+# MAGIC %md <i18n value="b86f1c49-9cc7-4699-a329-2e60bc68a774"/>
 # MAGIC 
 # MAGIC 
 # MAGIC We can also use negative indexing, which starts counting from right to left, starting from -1. 
@@ -265,7 +265,7 @@ breakfast_list[-1]
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-7cefd54e-7d6b-449e-99c0-48809deafc78
+# MAGIC %md <i18n value="7cefd54e-7d6b-449e-99c0-48809deafc78"/>
 # MAGIC 
 # MAGIC 
 # MAGIC We can also provide a range of indices we want to access like this:
@@ -281,12 +281,12 @@ breakfast_list[0:2]
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-bd802cdb-aece-435f-8056-151ab60ce5a7
+# MAGIC %md <i18n value="bd802cdb-aece-435f-8056-151ab60ce5a7"/>
 # MAGIC 
 # MAGIC 
 # MAGIC If we don't provide a start index, Python assumes we start at the beginning.
 # MAGIC 
-# MAGIC If we don't provide a stop index, Python assumes we stop at the end. 
+# MAGIC If we don't provide a stop index, Python assumes we stop at the end.
 
 # COMMAND ----------
 
@@ -295,7 +295,7 @@ print(breakfast_list[1:])
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-c1232cd7-3bd1-4dad-bc96-97ed5d36c5b1
+# MAGIC %md <i18n value="c1232cd7-3bd1-4dad-bc96-97ed5d36c5b1"/>
 # MAGIC 
 # MAGIC 
 # MAGIC We can also change the value of an index in a list to be something new like this:
@@ -309,7 +309,7 @@ print(breakfast_list)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-b26f49c7-544d-4cd7-811b-5439f136cdbe
+# MAGIC %md <i18n value="b26f49c7-544d-4cd7-811b-5439f136cdbe"/>
 # MAGIC 
 # MAGIC 
 # MAGIC We can also use **`in`** to check if an element is in a given list. This is a boolean operation:
@@ -320,7 +320,7 @@ print(breakfast_list)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-589d7a85-089c-4870-abe7-7ad2fd293698
+# MAGIC %md <i18n value="589d7a85-089c-4870-abe7-7ad2fd293698"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Collection Type 2: Dictionaries
@@ -340,7 +340,7 @@ breakfast_dict
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-14aa0189-5d2a-49f5-a497-b1a29839d03c
+# MAGIC %md <i18n value="14aa0189-5d2a-49f5-a497-b1a29839d03c"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### Dictionary Methods
@@ -355,7 +355,7 @@ breakfast_dict.get("waffles")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-c8653cbc-95a1-474e-8675-bbef76473da7
+# MAGIC %md <i18n value="c8653cbc-95a1-474e-8675-bbef76473da7"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Alternatively, you can use the syntax **`dict_object[key]`**.
@@ -366,7 +366,7 @@ breakfast_dict["waffles"]
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-de5edaf0-5374-4f84-888d-3a2793cd30fe
+# MAGIC %md <i18n value="de5edaf0-5374-4f84-888d-3a2793cd30fe"/>
 # MAGIC 
 # MAGIC 
 # MAGIC 
@@ -385,7 +385,7 @@ print(breakfast_dict)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-9492938e-d135-47f8-8256-804d70cc4ff8
+# MAGIC %md <i18n value="9492938e-d135-47f8-8256-804d70cc4ff8"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Notice the use of **`+=`** to increment the count of waffles.
@@ -394,7 +394,7 @@ print(breakfast_dict)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-8092da28-ccad-4265-a97e-fb30c6da249d
+# MAGIC %md <i18n value="8092da28-ccad-4265-a97e-fb30c6da249d"/>
 # MAGIC 
 # MAGIC 
 # MAGIC In order to determine if a key is in a dictionary, we can use the method [**dict_name.keys()**](https://www.w3schools.com/python/ref_dictionary_keys.asp). This returns a list of the keys in the dictionary. 

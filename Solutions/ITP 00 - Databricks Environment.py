@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-7eb653c9-12ee-4cf3-b03a-aed5f21fbdf9
+# MAGIC %md <i18n value="7eb653c9-12ee-4cf3-b03a-aed5f21fbdf9"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # The Databricks Environment
@@ -24,7 +24,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox --i18n-0bcfecf1-eb62-41a9-b095-6afa1cc6f92b
+# MAGIC %md-sandbox <i18n value="0bcfecf1-eb62-41a9-b095-6afa1cc6f92b"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Create a Cluster
@@ -64,7 +64,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox --i18n-fee29257-b1d9-49e6-a74f-53e1afc5bf29
+# MAGIC %md-sandbox <i18n value="fee29257-b1d9-49e6-a74f-53e1afc5bf29"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Run code
@@ -83,7 +83,7 @@ print("I'm running Python!")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-0341b4d6-fc23-4ef9-a846-5aab78d85112
+# MAGIC %md <i18n value="0341b4d6-fc23-4ef9-a846-5aab78d85112"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Magic Command: &percnt;md
@@ -129,7 +129,7 @@ print("I'm running Python!")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-58b85c79-1640-47a8-90c2-325a2bd2e265
+# MAGIC %md <i18n value="58b85c79-1640-47a8-90c2-325a2bd2e265"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Learning More

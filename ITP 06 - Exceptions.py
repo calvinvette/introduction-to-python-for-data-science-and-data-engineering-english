@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-98014313-352a-4426-b032-c0c48f96180a
+# MAGIC %md <i18n value="98014313-352a-4426-b032-c0c48f96180a"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Errors and Exceptions
@@ -20,14 +20,14 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-069b8442-7d9f-4418-8bc2-6426248ee458
+# MAGIC %md <i18n value="069b8442-7d9f-4418-8bc2-6426248ee458"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Syntax Errors
 # MAGIC 
 # MAGIC In Python, there are mainly two different kinds of errors: Syntax Errors and Exceptions. Syntax Errors are errors that are thrown because code was typed incorrectly and Python does not know how to interpret it. 
 # MAGIC 
-# MAGIC The example below illustrates a Syntax Error. 
+# MAGIC The example below illustrates a Syntax Error.
 
 # COMMAND ----------
 
@@ -35,14 +35,14 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-6fdcf2ae-e9d7-4686-81d7-eec2c9141af1
+# MAGIC %md <i18n value="6fdcf2ae-e9d7-4686-81d7-eec2c9141af1"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Exceptions
 # MAGIC 
 # MAGIC If we have properly formatted code that Python knows how to run, we might still encounter errors as the code is executed. Errors that arise like this as the code is executed are known as Exceptions. They indicate that, while Python understood what we were trying to do, there is a problem.
 # MAGIC 
-# MAGIC The example below illustrates an Exception. 
+# MAGIC The example below illustrates an Exception.
 
 # COMMAND ----------
 
@@ -50,14 +50,14 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-7dea8495-1d7e-448b-bd22-16f243bc753c
+# MAGIC %md <i18n value="7dea8495-1d7e-448b-bd22-16f243bc753c"/>
 # MAGIC 
 # MAGIC 
 # MAGIC This time we observed a **`ZeroDivisionError`** exception, indicating that we tried to divide by zero, which is not defined. There are different exceptions provided by Python that indicate different problems, a full list of the built-in ones can be found [here](https://docs.python.org/3/library/exceptions.html#bltin-exceptions).
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-215acf78-5049-40ff-b7b5-1050a889b315
+# MAGIC %md <i18n value="215acf78-5049-40ff-b7b5-1050a889b315"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Exception Handling
@@ -85,7 +85,7 @@ except:
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-daba1041-3381-4a20-9aa5-ee991c67ce4d
+# MAGIC %md <i18n value="daba1041-3381-4a20-9aa5-ee991c67ce4d"/>
 # MAGIC 
 # MAGIC 
 # MAGIC In this last example, we run the **`except`** block if we encounter any exception in the **`try`** block. If we want to only handle a certain exception we can write the exception after the **`except`** keyword like this:
@@ -114,12 +114,12 @@ except ZeroDivisionError:
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-9ae04843-cd61-4ba7-9136-6c7c04717982
+# MAGIC %md <i18n value="9ae04843-cd61-4ba7-9136-6c7c04717982"/>
 # MAGIC 
 # MAGIC 
 # MAGIC If we want to handle multiple specific exceptions we can write a sequence of exceptions separated by commas inside parentheses. 
 # MAGIC 
-# MAGIC Try commenting out one of the exception throwing lines below at a time, and notice that both exceptions are handled. 
+# MAGIC Try commenting out one of the exception throwing lines below at a time, and notice that both exceptions are handled.
 
 # COMMAND ----------
 
@@ -131,14 +131,14 @@ except (ZeroDivisionError, NameError):
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-0ce9ca24-9951-488d-970e-8acbeb86b750
+# MAGIC %md <i18n value="0ce9ca24-9951-488d-970e-8acbeb86b750"/>
 # MAGIC 
 # MAGIC 
 # MAGIC This now handles both the ZeroDivisionError and NameError exceptions.
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-2cbcc8d4-fc13-434f-a1df-1b82a9f7a46c
+# MAGIC %md <i18n value="2cbcc8d4-fc13-434f-a1df-1b82a9f7a46c"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Assertion Error
@@ -149,7 +149,7 @@ except (ZeroDivisionError, NameError):
 # MAGIC assert boolean expression, optional message
 # MAGIC ```
 # MAGIC 
-# MAGIC When Python executes this statement, it evaluates the boolean expression first. If it is **`True`**, Python does nothing and moves on. If it is **`False`**, then it throws an AssertionError with the optional message, if provided. 
+# MAGIC When Python executes this statement, it evaluates the boolean expression first. If it is **`True`**, Python does nothing and moves on. If it is **`False`**, then it throws an AssertionError with the optional message, if provided.
 
 # COMMAND ----------
 

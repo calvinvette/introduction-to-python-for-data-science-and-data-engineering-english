@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-5e2b0b7f-f62f-49f4-9178-aa14bf84b5b7
+# MAGIC %md <i18n value="5e2b0b7f-f62f-49f4-9178-aa14bf84b5b7"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Control Flow
@@ -19,7 +19,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-adcf81b0-d6b9-4d96-8952-8535f6b05741
+# MAGIC %md <i18n value="adcf81b0-d6b9-4d96-8952-8535f6b05741"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## if-statement
@@ -55,7 +55,7 @@ else:
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-d521ae49-84e2-42e1-88e2-ec13549e726d
+# MAGIC %md <i18n value="d521ae49-84e2-42e1-88e2-ec13549e726d"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Indentation
@@ -68,7 +68,7 @@ else:
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-694f3cf9-552d-4daa-ab39-8f68e0d28514
+# MAGIC %md <i18n value="694f3cf9-552d-4daa-ab39-8f68e0d28514"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Operators
@@ -108,7 +108,7 @@ print(True == True)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-12aa040d-a993-49d0-b3c8-a19fbc6b0a12
+# MAGIC %md <i18n value="12aa040d-a993-49d0-b3c8-a19fbc6b0a12"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Let's use these operators to see if we should buy lunch based on its price. We'll have a budget of 15 dollars for lunch, but might be willing to go a bit over that if the food is really good.
@@ -125,7 +125,7 @@ else:
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-a634486b-b213-4e83-b920-288aa64c0dc8
+# MAGIC %md <i18n value="a634486b-b213-4e83-b920-288aa64c0dc8"/>
 # MAGIC 
 # MAGIC 
 # MAGIC The code inside the **if** or **else** block can be anything, even another **if statement**.
@@ -142,7 +142,7 @@ else:
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-ae3c161b-53c5-4e87-99af-43ddf67ea92c
+# MAGIC %md <i18n value="ae3c161b-53c5-4e87-99af-43ddf67ea92c"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## elif
@@ -185,7 +185,7 @@ else:
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-82b070bf-589d-4791-b85c-66f51b170b76
+# MAGIC %md <i18n value="82b070bf-589d-4791-b85c-66f51b170b76"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Dog Breed Recommendations
@@ -208,7 +208,6 @@ else:
 # MAGIC   * If they are a dog person, but not a cat person, we recommend Scottish Deerhound, since they are known to chase cats.
 # MAGIC   * If they are a cat person, but not a dog person, we tell them they're barking up the wrong tree.
 # MAGIC   * Finally, if they are neither a dog person or a cat person, we ask them to evaluate whether a pet is right for them.
-# MAGIC   
 
 # COMMAND ----------
 
@@ -230,10 +229,10 @@ else:
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-5ba1204e-82df-4060-8c87-a981b3843075
+# MAGIC %md <i18n value="5ba1204e-82df-4060-8c87-a981b3843075"/>
 # MAGIC 
 # MAGIC 
-# MAGIC We could also write it as shown below, making sure we are mindful of the order of boolean conditions. Remember that at the first **`True`** Python will stop. 
+# MAGIC We could also write it as shown below, making sure we are mindful of the order of boolean conditions. Remember that at the first **`True`** Python will stop.
 
 # COMMAND ----------
 

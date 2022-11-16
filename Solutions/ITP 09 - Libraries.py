@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-9ad87fe1-fe24-4e65-b474-b126fe0cd797
+# MAGIC %md <i18n value="9ad87fe1-fe24-4e65-b474-b126fe0cd797"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Libraries
@@ -17,7 +17,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-d2d8408c-f293-45e1-a6a7-68b5fd4e5ea5
+# MAGIC %md <i18n value="d2d8408c-f293-45e1-a6a7-68b5fd4e5ea5"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### %run
@@ -36,7 +36,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-099718a4-1515-4d0a-b2b5-a0f5a1541129
+# MAGIC %md <i18n value="099718a4-1515-4d0a-b2b5-a0f5a1541129"/>
 # MAGIC 
 # MAGIC 
 # MAGIC The example notebook contains defines the function **`greet()`**, which takes in a name and returns a greeting. Since we now have access to that notebook's state, we can use **`greet()`** even though it was not defined in the notebook. This is a useful way to define & test helper functions without cluttering up your main notebook.
@@ -47,7 +47,7 @@ greet("Bob")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-450fa743-e6f9-4dd3-95ae-da18a436fa7c
+# MAGIC %md <i18n value="450fa743-e6f9-4dd3-95ae-da18a436fa7c"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### PyPI and Python Libraries
@@ -61,7 +61,7 @@ greet("Bob")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-868481bc-9374-4770-b046-a27e395e4bc8
+# MAGIC %md <i18n value="868481bc-9374-4770-b046-a27e395e4bc8"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### pip
@@ -80,7 +80,7 @@ greet("Bob")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-4c16a8f1-d12a-4ce0-bbd5-053280b4e96b
+# MAGIC %md <i18n value="4c16a8f1-d12a-4ce0-bbd5-053280b4e96b"/>
 # MAGIC 
 # MAGIC 
 # MAGIC The following code cell will restart the Python interpreter, which means you will have to re-run the `./Includes/run_example` notebook to have access to `greet()`.
@@ -91,7 +91,7 @@ greet("Bob")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-a1d330d7-a006-4079-809b-02a4736f497f
+# MAGIC %md <i18n value="a1d330d7-a006-4079-809b-02a4736f497f"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Fortunately, our Databricks environment comes with several useful libraries preinstalled, including **`numpy`**, so we will only have to import the one we want.
@@ -106,7 +106,7 @@ import numpy
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-be36835e-e871-4d95-a546-004b0c36031f
+# MAGIC %md <i18n value="be36835e-e871-4d95-a546-004b0c36031f"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Now to access functions defined in the **`numpy`** library once imported, you write **`numpy.function_name(arguments)`**.
@@ -119,7 +119,7 @@ numpy.sqrt(4.0)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-cad7f412-9c0a-4bb6-9808-5e94bb9fca43
+# MAGIC %md <i18n value="cad7f412-9c0a-4bb6-9808-5e94bb9fca43"/>
 # MAGIC 
 # MAGIC 
 # MAGIC We can create an alias when importing the library as well.
@@ -132,7 +132,7 @@ np.sqrt(4.0)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-1df20310-0c7a-4315-a514-fcdf70bddcd9
+# MAGIC %md <i18n value="1df20310-0c7a-4315-a514-fcdf70bddcd9"/>
 # MAGIC 
 # MAGIC 
 # MAGIC We can also import specific functions from libraries.
@@ -145,7 +145,7 @@ sqrt(4.0)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-7ca81733-cafe-43fc-af1a-f6e81ef82cbd
+# MAGIC %md <i18n value="7ca81733-cafe-43fc-af1a-f6e81ef82cbd"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### `help()`
@@ -162,7 +162,7 @@ help(np.sqrt)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-017e2ccc-17b6-4711-a356-a7895414a943
+# MAGIC %md <i18n value="017e2ccc-17b6-4711-a356-a7895414a943"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Note that while creating a library is outside the scope of this introductory course, all of the functions and classes they define are defined in the same way we have seen.

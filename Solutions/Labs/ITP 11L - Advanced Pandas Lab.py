@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-1736b729-f36e-45fe-9340-bef22ff58167
+# MAGIC %md <i18n value="1736b729-f36e-45fe-9340-bef22ff58167"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Advanced Pandas Lab
@@ -20,7 +20,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-e460c1e8-54fb-4175-9482-ac1ee5be0945
+# MAGIC %md <i18n value="e460c1e8-54fb-4175-9482-ac1ee5be0945"/>
 # MAGIC 
 # MAGIC 
 # MAGIC First, let's import pandas
@@ -31,14 +31,14 @@ import pandas as pd
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-77f86875-8f35-4c68-a04c-1f99482cc0ce
+# MAGIC %md <i18n value="77f86875-8f35-4c68-a04c-1f99482cc0ce"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Read CSV
 # MAGIC 
 # MAGIC To determine the regions with the highest total volume of average organic avocado sales, we will use the [avocado prices](https://www.kaggle.com/datasets/neuromusic/avocado-prices) dataset. 
 # MAGIC 
-# MAGIC We have provided the code to read in the data. 
+# MAGIC We have provided the code to read in the data.
 
 # COMMAND ----------
 
@@ -47,7 +47,7 @@ df = pd.read_csv(file_path).drop("Unnamed: 0", axis=1) # drop unnamed index colu
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-c6d6129e-db7a-41e5-a14d-077dc501de1d
+# MAGIC %md <i18n value="c6d6129e-db7a-41e5-a14d-077dc501de1d"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Problem 1: Data Analysis
@@ -64,7 +64,7 @@ filtered_df
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox --i18n-bf6590ba-46e2-4cf7-aecb-405818023d33
+# MAGIC %md-sandbox <i18n value="bf6590ba-46e2-4cf7-aecb-405818023d33"/>
 # MAGIC 
 # MAGIC 
 # MAGIC <button onclick="myFunction2()" >Click for Hint</button>
@@ -92,7 +92,7 @@ print("Test passed!")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-7555f96b-93e7-414a-9064-b0827ecaf1e6
+# MAGIC %md <i18n value="7555f96b-93e7-414a-9064-b0827ecaf1e6"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Problem 2: Find the Regions

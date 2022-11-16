@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-2e588f6c-a1c4-4184-888c-25dd7f246cf4
+# MAGIC %md <i18n value="2e588f6c-a1c4-4184-888c-25dd7f246cf4"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Collection Types and Methods
@@ -19,12 +19,12 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-f43f90db-5f06-4f7b-bbe1-e4a4a27a1984
+# MAGIC %md <i18n value="f43f90db-5f06-4f7b-bbe1-e4a4a27a1984"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### Problem 1a: Dinner Foods
 # MAGIC 
-# MAGIC We provide a list called **`dinner_list`** with elements "potatoes, peppers, onions" in that order. 
+# MAGIC We provide a list called **`dinner_list`** with elements "potatoes, peppers, onions" in that order.
 
 # COMMAND ----------
 
@@ -33,7 +33,7 @@ dinner_list = TODO
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-5382a8a7-3300-468e-8f1d-8009c6c3bb8c
+# MAGIC %md <i18n value="5382a8a7-3300-468e-8f1d-8009c6c3bb8c"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### Problem 1b: Dinner Foods 
@@ -51,7 +51,7 @@ print("Test passed!")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-768e4c64-8466-4084-87b0-51a55f63c26f
+# MAGIC %md <i18n value="768e4c64-8466-4084-87b0-51a55f63c26f"/>
 # MAGIC 
 # MAGIC  
 # MAGIC #### Problem 1c: Dinner Foods 
@@ -68,7 +68,7 @@ print("Test passed!")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-04208057-4d9e-4b91-a12c-1c811d2940bf
+# MAGIC %md <i18n value="04208057-4d9e-4b91-a12c-1c811d2940bf"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### Problem 2a: Dinner Dictionaries
@@ -88,7 +88,7 @@ print("Tests passed!")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-01f79df2-b253-4e4d-949b-868d08287636
+# MAGIC %md <i18n value="01f79df2-b253-4e4d-949b-868d08287636"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### Problem 2b: Updating Dinner Dictionary
@@ -103,7 +103,7 @@ print("Tests passed!")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-ea6adf37-9c45-44fa-a1ae-9f3452f05db8
+# MAGIC %md <i18n value="ea6adf37-9c45-44fa-a1ae-9f3452f05db8"/>
 # MAGIC 
 # MAGIC 
 # MAGIC **Check your work:**
@@ -116,7 +116,7 @@ print("Tests passed!")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-0d94c470-0a24-4071-8e23-d71d610eb80e
+# MAGIC %md <i18n value="0d94c470-0a24-4071-8e23-d71d610eb80e"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Problem 3: Sets
@@ -144,7 +144,7 @@ ingredient_intersection_set = TODO
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-4f4f2578-063d-41c5-bffb-3fefadbe7380
+# MAGIC %md <i18n value="4f4f2578-063d-41c5-bffb-3fefadbe7380"/>
 # MAGIC 
 # MAGIC 
 # MAGIC **Check your work:**

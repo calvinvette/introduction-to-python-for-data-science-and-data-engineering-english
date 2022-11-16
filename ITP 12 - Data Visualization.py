@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-92f0d116-aa27-4e1f-9be2-9eb102794cf6
+# MAGIC %md <i18n value="92f0d116-aa27-4e1f-9be2-9eb102794cf6"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Data Visualization
@@ -36,7 +36,7 @@ df.head(3)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-46852d14-6b5c-4906-8a87-2d87f099bfeb
+# MAGIC %md <i18n value="46852d14-6b5c-4906-8a87-2d87f099bfeb"/>
 # MAGIC 
 # MAGIC  
 # MAGIC ## Built-in Plotting
@@ -53,7 +53,7 @@ display(df)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-c609e59a-b0ce-40fc-bd71-24e10730b6b6
+# MAGIC %md <i18n value="c609e59a-b0ce-40fc-bd71-24e10730b6b6"/>
 # MAGIC 
 # MAGIC  
 # MAGIC ## Plot Options
@@ -78,14 +78,14 @@ display(df)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-6d9956db-6e60-4533-966e-1be99415c1b8
+# MAGIC %md <i18n value="6d9956db-6e60-4533-966e-1be99415c1b8"/>
 # MAGIC 
 # MAGIC  
 # MAGIC Note that initially it only will show a preview of the first 1000 rows, but when we click **`apply`** it works on all of them.
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-3c4eb78d-05a2-4133-905b-90411fffdb02
+# MAGIC %md <i18n value="3c4eb78d-05a2-4133-905b-90411fffdb02"/>
 # MAGIC 
 # MAGIC  
 # MAGIC ## Pandas Plotting
@@ -102,7 +102,7 @@ df["bedrooms"].hist()
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-8eec6709-d9aa-499c-ab29-37d51ee8dfc1
+# MAGIC %md <i18n value="8eec6709-d9aa-499c-ab29-37d51ee8dfc1"/>
 # MAGIC 
 # MAGIC 
 # MAGIC We can also specify the number of bins by passing an argument to **`bins`** parameter.
@@ -113,7 +113,7 @@ df["bedrooms"].hist(bins=20)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-14bed99e-90e8-4a85-bfd5-99be4ff0563e
+# MAGIC %md <i18n value="14bed99e-90e8-4a85-bfd5-99be4ff0563e"/>
 # MAGIC 
 # MAGIC  
 # MAGIC We can also box plots with pandas.
@@ -126,7 +126,7 @@ df.boxplot(["bedrooms", "bathrooms"])
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-9c6d8ce4-ef18-4c32-b9e1-fe6ada690af5
+# MAGIC %md <i18n value="9c6d8ce4-ef18-4c32-b9e1-fe6ada690af5"/>
 # MAGIC 
 # MAGIC  
 # MAGIC # Seaborn
@@ -143,7 +143,7 @@ import seaborn as sns
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-cec27556-7c8f-4991-89ad-d060836aaf98
+# MAGIC %md <i18n value="cec27556-7c8f-4991-89ad-d060836aaf98"/>
 # MAGIC 
 # MAGIC  
 # MAGIC ## Scatter plot
@@ -160,7 +160,7 @@ sns.scatterplot(data=df, x="bedrooms", y="bathrooms")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-f8901310-8093-4568-944e-ac277d0b3da0
+# MAGIC %md <i18n value="f8901310-8093-4568-944e-ac277d0b3da0"/>
 # MAGIC 
 # MAGIC  
 # MAGIC You might also want to plot a line of best fit for the scatter plot. 

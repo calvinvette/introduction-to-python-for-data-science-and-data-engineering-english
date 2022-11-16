@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-1818ed45-df1d-4a39-8074-e2841494477c
+# MAGIC %md <i18n value="1818ed45-df1d-4a39-8074-e2841494477c"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Data Types and Variables Lab
@@ -16,7 +16,7 @@
 # MAGIC * Define a variable **`num_chocolate`** and set it equal to the number of chocolate bars you would like to eat. These should be whole numbers (e.g. integer).
 # MAGIC * Define a variable **`name`** and set it equal to your name.
 # MAGIC * Define the string **`chocolate_string`** as follows: "**`name`** would like to eat **`num_chocolate`** bars of chocolate" using f-string formatting
-# MAGIC * Print the string  **`chocolate_string`** 
+# MAGIC * Print the string  **`chocolate_string`**
 
 # COMMAND ----------
 
@@ -29,7 +29,7 @@ print(TODO)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-d156910a-4562-4a24-bc6e-2d3ed9826f24
+# MAGIC %md <i18n value="d156910a-4562-4a24-bc6e-2d3ed9826f24"/>
 # MAGIC 
 # MAGIC 
 # MAGIC **Check your work:**

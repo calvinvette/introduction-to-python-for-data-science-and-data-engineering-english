@@ -7,14 +7,14 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-188c3515-034d-4980-9be2-14aee1714c82
+# MAGIC %md <i18n value="188c3515-034d-4980-9be2-14aee1714c82"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Project Information
 # MAGIC 
 # MAGIC * Name: **Introduction to Python for Data Science & Data Engineering**
-# MAGIC * Version:  **1.1.1**
-# MAGIC * Built On: **Nov 10, 2022 at 01:47:39 UTC**
+# MAGIC * Version:  **1.1.2**
+# MAGIC * Built On: **Nov 16, 2022 at 20:43:00 UTC**
 
 # COMMAND ----------
 
@@ -99,7 +99,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md ## Copyrights
+# MAGIC %md <i18n value="98014313-352a-4426-b032-c0c48f96180a"/>
+# MAGIC 
+# MAGIC ## Copyright
 # MAGIC This section documents the various copyrights as they relate to the datasets used in this course.
 # MAGIC 
 # MAGIC Run the following cell for additional information on this course's datasets, and their copyrights.

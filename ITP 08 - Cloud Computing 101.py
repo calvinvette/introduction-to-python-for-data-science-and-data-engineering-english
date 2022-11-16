@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-a18d57e2-019d-45b4-9ba4-b704a190ff0a
+# MAGIC %md <i18n value="a18d57e2-019d-45b4-9ba4-b704a190ff0a"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Cloud Computing 101
@@ -18,7 +18,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-4e55ca41-dc1d-4f3f-9162-8b418a85c60e
+# MAGIC %md <i18n value="4e55ca41-dc1d-4f3f-9162-8b418a85c60e"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### Local Execution
@@ -29,7 +29,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-7d43d290-d840-449b-875e-063186261763
+# MAGIC %md <i18n value="7d43d290-d840-449b-875e-063186261763"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### On-Prem
@@ -43,7 +43,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox --i18n-232b8ed7-36c8-4e48-88d3-5c17143e3d76
+# MAGIC %md-sandbox <i18n value="232b8ed7-36c8-4e48-88d3-5c17143e3d76"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### Cloud
@@ -59,7 +59,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-a5697312-b91f-4f54-bb69-2b835a9bd278
+# MAGIC %md <i18n value="a5697312-b91f-4f54-bb69-2b835a9bd278"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### Virtual Machines
@@ -70,11 +70,11 @@
 # MAGIC 
 # MAGIC A virtual machine separates the CPU, memory, networking, and disk storage from other virtual machines on the same computer. 
 # MAGIC 
-# MAGIC By renting virtual machines on cloud computers, we can use the resources those computers provide without worrying about sharing information with other users also renting virtual machines. 
+# MAGIC By renting virtual machines on cloud computers, we can use the resources those computers provide without worrying about sharing information with other users also renting virtual machines.
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-a74616ce-3011-4c79-b0f9-f72fbfbb032e
+# MAGIC %md <i18n value="a74616ce-3011-4c79-b0f9-f72fbfbb032e"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### Cloud Storage
@@ -87,11 +87,11 @@
 # MAGIC * Microsoft's [Azure Blob storage](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction)
 # MAGIC * [Google Cloud Storage](https://cloud.google.com/storage)
 # MAGIC 
-# MAGIC Cloud providers also offer services to store and manage relational databases &mdash; such as MySQL, PostgreSQL, and Microsoft SQL Server &mdash; and key-value stores or other "NoSQL" databases &mdash; such as Amazon DynamoDB, Azure Cosmos DB, and Google Cloud Bigtable. 
+# MAGIC Cloud providers also offer services to store and manage relational databases &mdash; such as MySQL, PostgreSQL, and Microsoft SQL Server &mdash; and key-value stores or other "NoSQL" databases &mdash; such as Amazon DynamoDB, Azure Cosmos DB, and Google Cloud Bigtable.
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox --i18n-cc376440-5b2e-4d04-ae07-77c5a08b66d9
+# MAGIC %md-sandbox <i18n value="cc376440-5b2e-4d04-ae07-77c5a08b66d9"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### Databricks
@@ -102,7 +102,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-e631525b-075f-485e-979a-dfc8ab90973e
+# MAGIC %md <i18n value="e631525b-075f-485e-979a-dfc8ab90973e"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### Apache Spark
@@ -123,14 +123,14 @@
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox --i18n-5b907bd3-bc39-41d1-8294-1be99f57ca26
+# MAGIC %md-sandbox <i18n value="5b907bd3-bc39-41d1-8294-1be99f57ca26"/>
 # MAGIC 
 # MAGIC 
 # MAGIC <img src="https://files.training.databricks.com/images/sparkcluster.png" style="width:600px;height:250px;">
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-4e483909-d12e-4a76-94e4-b5e04e726ce2
+# MAGIC %md <i18n value="4e483909-d12e-4a76-94e4-b5e04e726ce2"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### Databricks File System &mdash; DBFS
@@ -153,7 +153,7 @@ display(dbutils.fs.mounts())
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-a499fb6b-eb36-4732-9af9-c84329cdce8a
+# MAGIC %md <i18n value="a499fb6b-eb36-4732-9af9-c84329cdce8a"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### Code Versioning and Collaboration with Git

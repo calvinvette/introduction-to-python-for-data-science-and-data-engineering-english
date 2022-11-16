@@ -1,5 +1,5 @@
 # Databricks notebook source
-# MAGIC %md --i18n-1fb32f72-2ccc-4206-98d9-907287fc3262
+# MAGIC %md <i18n value="1fb32f72-2ccc-4206-98d9-907287fc3262"/>
 # MAGIC 
 # MAGIC # Workspace Setup
 # MAGIC This notebook should be run by instructors to prepare the workspace for a class.
@@ -22,7 +22,7 @@ setup_start = dbgems.clock_start()
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-86c0a995-1251-473e-976c-ba8288c0b2d3
+# MAGIC %md <i18n value="86c0a995-1251-473e-976c-ba8288c0b2d3"/>
 # MAGIC # Get Class Config
 # MAGIC The three variables defined by these widgets are used to configure our environment as a means of controlling class cost.
 
@@ -42,7 +42,7 @@ dbutils.widgets.text(WorkspaceHelper.PARAM_DESCRIPTION, "", "Description (option
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-b1d39e1d-aa44-4c05-b378-837a1b432128
+# MAGIC %md <i18n value="b1d39e1d-aa44-4c05-b378-837a1b432128"/>
 # MAGIC 
 # MAGIC # Init Script & Install Datasets
 # MAGIC The main affect of this call is to pre-install the datasets.
@@ -60,7 +60,7 @@ DA.conclude_setup()                                 # Finalizes the state and pr
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-485ff12c-7286-4d14-a90e-3c29d87f8920
+# MAGIC %md <i18n value="485ff12c-7286-4d14-a90e-3c29d87f8920"/>
 # MAGIC 
 # MAGIC ## Create Class Instance Pools
 # MAGIC The following cell configures the instance pool used for this class
@@ -71,7 +71,7 @@ instance_pool_id = DA.workspace.clusters.create_instance_pool()
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-04ae9a73-8b48-4823-8738-31e337864cf4
+# MAGIC %md <i18n value="04ae9a73-8b48-4823-8738-31e337864cf4"/>
 # MAGIC 
 # MAGIC ## Create The Three Class-Specific Cluster Policies
 # MAGIC The following cells create the various cluster policies used by the class
@@ -85,7 +85,7 @@ None
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-2f010a4b-af3c-4b3f-96a0-d8b3556ec728
+# MAGIC %md <i18n value="2f010a4b-af3c-4b3f-96a0-d8b3556ec728"/>
 # MAGIC 
 # MAGIC ## Configure User Entitlements
 # MAGIC 

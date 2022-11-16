@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-13cdba3e-bd9b-441f-9202-12e26ce9135f
+# MAGIC %md <i18n value="13cdba3e-bd9b-441f-9202-12e26ce9135f"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Loops
@@ -19,7 +19,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-f5c07310-2b29-4266-9ec2-9b239ebae74f
+# MAGIC %md <i18n value="f5c07310-2b29-4266-9ec2-9b239ebae74f"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### For-loops
@@ -36,7 +36,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-ac31dae5-adc1-4167-b689-87d6bce353e2
+# MAGIC %md <i18n value="ac31dae5-adc1-4167-b689-87d6bce353e2"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Each time the code loops, **`var_name`**, which is **`number`** in the example below, is set equal to the next item in the list. 
@@ -49,7 +49,7 @@
 # MAGIC 
 # MAGIC Step 3. **`number`** is set to the next element in the list again, so **`number = 2`**, and prints **`2`**.
 # MAGIC 
-# MAGIC Using this, we can have the code in the **`for`** loop act on every item in the list. 
+# MAGIC Using this, we can have the code in the **`for`** loop act on every item in the list.
 
 # COMMAND ----------
 
@@ -58,7 +58,7 @@ for number in [0, 1, 2]:
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-90b9748a-7ecc-440c-98ca-5acde97b5212
+# MAGIC %md <i18n value="90b9748a-7ecc-440c-98ca-5acde97b5212"/>
 # MAGIC 
 # MAGIC 
 # MAGIC If you want to execute a code block many times but don't need to iterate over a list, you can instead use [**range()**](https://www.w3schools.com/python/ref_func_range.asp).
@@ -74,10 +74,10 @@ for element in range(0, 10):
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-4e3f1154-8637-45de-a4ae-5b285bb87fdd
+# MAGIC %md <i18n value="4e3f1154-8637-45de-a4ae-5b285bb87fdd"/>
 # MAGIC 
 # MAGIC 
-# MAGIC Here, **`element`** is temporarily assigned to each number in that range at each iteration. 
+# MAGIC Here, **`element`** is temporarily assigned to each number in that range at each iteration.
 
 # COMMAND ----------
 
@@ -86,20 +86,20 @@ for element in range(0, 10):
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-1ff92a97-049b-44a0-ab26-dac4a85ca615
+# MAGIC %md <i18n value="1ff92a97-049b-44a0-ab26-dac4a85ca615"/>
 # MAGIC 
 # MAGIC 
-# MAGIC Question: How can we change the code to print 1-10, not 0-9? 
+# MAGIC Question: How can we change the code to print 1-10, not 0-9?
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-edd56f68-c314-46f0-9d37-de1ef33a449e
+# MAGIC %md <i18n value="edd56f68-c314-46f0-9d37-de1ef33a449e"/>
 # MAGIC 
 # MAGIC 
 # MAGIC 
 # MAGIC You can use loops to filter a list. For example, let's say we wanted to filter a list of numbers to only keep the numbers greater than 4. 
 # MAGIC 
-# MAGIC We can accomplish this by creating an empty new list, looping over our list of numbers, and adding numbers to the empty list if they are greater than 4. 
+# MAGIC We can accomplish this by creating an empty new list, looping over our list of numbers, and adding numbers to the empty list if they are greater than 4.
 
 # COMMAND ----------
 
@@ -116,7 +116,7 @@ final_list
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-cb72b94d-ff2f-43ba-8468-5666faa713f3
+# MAGIC %md <i18n value="cb72b94d-ff2f-43ba-8468-5666faa713f3"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Creating a new list from filtering one with a loop is a common enough problem that Python actually provides a very useful shortcut. 
@@ -132,7 +132,7 @@ final_list_shortcut
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-42f3bd09-15b7-4cb6-bf4d-61d867f57f8c
+# MAGIC %md <i18n value="42f3bd09-15b7-4cb6-bf4d-61d867f57f8c"/>
 # MAGIC 
 # MAGIC 
 # MAGIC You can read this left to right as including **`element`** in the final list for each **`element`** in **`numbers`** if the **`element`** is greater than 4.
@@ -146,10 +146,10 @@ doubled_list
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-9d0bf7b0-5558-47fe-9a02-342e7f644c66
+# MAGIC %md <i18n value="9d0bf7b0-5558-47fe-9a02-342e7f644c66"/>
 # MAGIC 
 # MAGIC 
-# MAGIC The boolean expression is actually optional. Let's double every element in the list. 
+# MAGIC The boolean expression is actually optional. Let's double every element in the list.
 
 # COMMAND ----------
 
@@ -157,7 +157,7 @@ doubled_list
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-07060457-fa2d-48b6-b140-c4dbc681af0d
+# MAGIC %md <i18n value="07060457-fa2d-48b6-b140-c4dbc681af0d"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### `break`
@@ -166,7 +166,7 @@ doubled_list
 # MAGIC 
 # MAGIC **`break`** is written on it's own line inside a loop code block, and when Python executes that line, Python will exit the loop code block and stop iterating over the list. 
 # MAGIC 
-# MAGIC Let's use this to stop iterating over **`numbers_list`** once we reach the number 4. 
+# MAGIC Let's use this to stop iterating over **`numbers_list`** once we reach the number 4.
 
 # COMMAND ----------
 
@@ -177,14 +177,14 @@ for element in numbers_list:
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-0abb7db5-41c8-4c67-ba08-664507255fa6
+# MAGIC %md <i18n value="0abb7db5-41c8-4c67-ba08-664507255fa6"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### `continue`
 # MAGIC 
 # MAGIC **`break`** exits the loop code block when it is executed and stops iterating over the list. If instead you wanted to exit the loop code block early, but still move on and continue to execute the sequence, you could use **`continue`** instead. 
 # MAGIC 
-# MAGIC **`continue`** is also written on it's own line and when it is executed Python stops executing the loop code block and then continues to iterate over the sequence. 
+# MAGIC **`continue`** is also written on it's own line and when it is executed Python stops executing the loop code block and then continues to iterate over the sequence.
 
 # COMMAND ----------
 
@@ -195,7 +195,7 @@ for element in numbers_list:
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-65b05201-3344-43a1-aeee-33911d306bef
+# MAGIC %md <i18n value="65b05201-3344-43a1-aeee-33911d306bef"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### While-loops
@@ -210,7 +210,7 @@ for element in numbers_list:
 # MAGIC 
 # MAGIC Python will loop and execute the code in the **`code_block`** until the boolean expression evaluates to **`False`**. Every loop, it will reevaluate the boolean expression, and if it is **`True`** it will execute the code again, otherwise it will exit. 
 # MAGIC 
-# MAGIC **NOTE:** You need to be careful not to have infinite loops here. If the boolean expression never evaluates to **`False`**, this code will keep running and never stop. 
+# MAGIC **NOTE:** You need to be careful not to have infinite loops here. If the boolean expression never evaluates to **`False`**, this code will keep running and never stop.
 
 # COMMAND ----------
 

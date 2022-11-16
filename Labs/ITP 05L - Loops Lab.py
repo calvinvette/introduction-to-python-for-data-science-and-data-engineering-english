@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-7dbd79c5-128b-44de-bfdf-f4ee82cb7df7
+# MAGIC %md <i18n value="7dbd79c5-128b-44de-bfdf-f4ee82cb7df7"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Loops
@@ -20,7 +20,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-c53aee76-7759-4783-b8cc-c615c9db8637
+# MAGIC %md <i18n value="c53aee76-7759-4783-b8cc-c615c9db8637"/>
 # MAGIC 
 # MAGIC  
 # MAGIC ## Exercise: Bart Simpson in Detention
@@ -60,7 +60,7 @@ def detention_helper(detention_message, num_lines):
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-7c5729b0-a8b5-4122-8574-44fa9053877c
+# MAGIC %md <i18n value="7c5729b0-a8b5-4122-8574-44fa9053877c"/>
 # MAGIC 
 # MAGIC  
 # MAGIC Call your function below with the correct inputs for Bart's current detention and make sure you can see "I will not let my dog eat my homework" printed out 50 times, with the lines numbered, as shown in the problem description.

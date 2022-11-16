@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-3a4f1c43-9316-4e40-91a0-2e61ae23c8a4
+# MAGIC %md <i18n value="3a4f1c43-9316-4e40-91a0-2e61ae23c8a4"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Pandas
@@ -20,7 +20,6 @@
 # MAGIC * Perform operations on **`pandas`** objects
 # MAGIC 
 # MAGIC First, let us import **`pandas`** with the alias **`pd`** so we can refer to the library without having to type **`pandas`** out each time. **`pandas`** is pre-installed on Databricks.
-# MAGIC    
 
 # COMMAND ----------
 
@@ -28,7 +27,7 @@ import pandas as pd
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-23d65c0c-d3f7-4e13-a0ee-f82272eb4daa
+# MAGIC %md <i18n value="23d65c0c-d3f7-4e13-a0ee-f82272eb4daa"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### Why `pandas`?
@@ -43,7 +42,7 @@ import pandas as pd
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-68744e01-4fc2-4282-9fae-bf6898d0c264
+# MAGIC %md <i18n value="68744e01-4fc2-4282-9fae-bf6898d0c264"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## `DataFrame`
@@ -76,14 +75,14 @@ df
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-96e03931-0ce6-4d71-914f-93f192c90931
+# MAGIC %md <i18n value="96e03931-0ce6-4d71-914f-93f192c90931"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Recall that we create an object of a custom class like **`object = Class()`**. Since **`DataFrame`** is defined in **`pandas`** we use **`pd.DataFrame()`**.
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-75f28ee2-cedb-477e-ad86-bf4684cff899
+# MAGIC %md <i18n value="75f28ee2-cedb-477e-ad86-bf4684cff899"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Adding Column Names
@@ -98,7 +97,7 @@ df
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-12dcbd4f-2636-41b1-a103-88b1a7325494
+# MAGIC %md <i18n value="12dcbd4f-2636-41b1-a103-88b1a7325494"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## `Series`
@@ -124,14 +123,14 @@ df.Age
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-46985f3d-66e6-4bb3-b305-10e2db222867
+# MAGIC %md <i18n value="46985f3d-66e6-4bb3-b305-10e2db222867"/>
 # MAGIC 
 # MAGIC 
 # MAGIC It is preferred to use **`df["column_name"]`** to access a column. The **`df.column_name`** notation does not work well when there are spaces in the column names.
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-a0b445c2-3e9a-4814-b4c9-249a7d2dabeb
+# MAGIC %md <i18n value="a0b445c2-3e9a-4814-b4c9-249a7d2dabeb"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## dtypes
@@ -156,7 +155,7 @@ df.Age
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-b129d939-a308-4682-b818-33498bf83f87
+# MAGIC %md <i18n value="b129d939-a308-4682-b818-33498bf83f87"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## `Series` Operations
@@ -173,7 +172,7 @@ df["Age"] + df["Age"]
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-eab93237-f960-44fe-9840-6d82497b1e29
+# MAGIC %md <i18n value="eab93237-f960-44fe-9840-6d82497b1e29"/>
 # MAGIC 
 # MAGIC 
 # MAGIC We can use all basic integer operations here:
@@ -184,7 +183,7 @@ df["Age"] * 3 - 1
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-e6713871-d93a-4b68-ae8f-a08d14e871c0
+# MAGIC %md <i18n value="e6713871-d93a-4b68-ae8f-a08d14e871c0"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### Selecting a value from a **`Series`**
@@ -197,7 +196,7 @@ df["Age"][0]
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-1ce3e63c-3e11-4b0a-8078-b6584146c9e5
+# MAGIC %md <i18n value="1ce3e63c-3e11-4b0a-8078-b6584146c9e5"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Selecting a Subset of Columns

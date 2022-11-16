@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-3fb78239-dd9c-4c5d-b4dc-6049604db4b2
+# MAGIC %md <i18n value="3fb78239-dd9c-4c5d-b4dc-6049604db4b2"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Classes
@@ -18,7 +18,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-f8f3096e-b29e-4c8e-8874-96451f47002a
+# MAGIC %md <i18n value="f8f3096e-b29e-4c8e-8874-96451f47002a"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Classes
@@ -53,7 +53,7 @@ class Dog():
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-b326ce06-9f66-46f3-a134-03579d30867a
+# MAGIC %md <i18n value="b326ce06-9f66-46f3-a134-03579d30867a"/>
 # MAGIC 
 # MAGIC 
 # MAGIC For the built-in types we have seen so far, creating an object from a class has been built-in. If you write **`1`** or **`"hello"`** Python knows what types those are and creates those `int` or `str` objects for you. 
@@ -73,7 +73,7 @@ type(my_dog)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-58c970b2-4bd1-4b0b-8533-b0794b07eed3
+# MAGIC %md <i18n value="58c970b2-4bd1-4b0b-8533-b0794b07eed3"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Code Reuse with Methods
@@ -111,7 +111,7 @@ class UpdatedDog():
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-5de3ea33-9f20-4ca7-913c-f08dba3ba9ca
+# MAGIC %md <i18n value="5de3ea33-9f20-4ca7-913c-f08dba3ba9ca"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Now let's make an object of our updated **`Dog`** class and call the method. Remember we call methods like this: **`object.method(args)`**.
@@ -126,14 +126,14 @@ my_updated_dog.return_name("Rex")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-1dd48eff-d93e-4f8e-9373-ae10de48af4d
+# MAGIC %md <i18n value="1dd48eff-d93e-4f8e-9373-ae10de48af4d"/>
 # MAGIC 
 # MAGIC 
 # MAGIC What about `self`?
 # MAGIC 
 # MAGIC A method differs from a function in that it can act on the object it's called on. The method needs to be able to reference the object that called it. That's what **`self`** refers to.
 # MAGIC 
-# MAGIC When we call **`object.method(self, args)`** the object itself is passed to the **`self`** parameter automatically by Python. 
+# MAGIC When we call **`object.method(self, args)`** the object itself is passed to the **`self`** parameter automatically by Python.
 
 # COMMAND ----------
 
@@ -149,7 +149,7 @@ dog_with_self.print_self() # prints the same object
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-56944397-f05e-4cdd-bced-940be45e1872
+# MAGIC %md <i18n value="56944397-f05e-4cdd-bced-940be45e1872"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Notice that when we print the **`new_dog`** object and call our **`print_self()`** method on **`new_dog`** we see the same object. 
@@ -158,7 +158,7 @@ dog_with_self.print_self() # prints the same object
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-a3aea935-bc40-4fc2-aeb0-f3d5d7c45eb2
+# MAGIC %md <i18n value="a3aea935-bc40-4fc2-aeb0-f3d5d7c45eb2"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Data Caching with Attributes
@@ -176,7 +176,7 @@ dog_with_self.print_self() # prints the same object
 # MAGIC 
 # MAGIC Let's say for our **`Dog`** class that we want every dog object to have a name and a color. To do that, we create two attributes for the class **`name`** and **`color`**.
 # MAGIC 
-# MAGIC Then, every **`Dog`** object has a name and color attribute, but they can be set to different values for each object, so that each dog object can have its own name and color. 
+# MAGIC Then, every **`Dog`** object has a name and color attribute, but they can be set to different values for each object, so that each dog object can have its own name and color.
 
 # COMMAND ----------
 
@@ -191,7 +191,7 @@ dog_with_attributes = DogWithAttributes("Rex", "Orange")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-a6ca39f1-ceb0-42ff-aa95-fac34ef7ba1b
+# MAGIC %md <i18n value="a6ca39f1-ceb0-42ff-aa95-fac34ef7ba1b"/>
 # MAGIC 
 # MAGIC 
 # MAGIC When the `__init__()` method was automatically called, it saved those variables to `self`, which is the instantiation of the object. We can access the attribute similar to how we accessed methods but without the parentheses.
@@ -202,7 +202,7 @@ dog_with_attributes.name
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-3d8f5672-e9d4-4bd4-9c14-91756c1cbb4f
+# MAGIC %md <i18n value="3d8f5672-e9d4-4bd4-9c14-91756c1cbb4f"/>
 # MAGIC 
 # MAGIC 
 # MAGIC In a method definition we can access an attribute using **`self.attribute_name`**, since **`self`** refers to the object that calls the method, regardless of what we named it when we instantiated it.
@@ -223,7 +223,7 @@ my_dog.return_name()
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-4ec0fb49-f058-4c68-be13-aac66e9e5fe3
+# MAGIC %md <i18n value="4ec0fb49-f058-4c68-be13-aac66e9e5fe3"/>
 # MAGIC 
 # MAGIC 
 # MAGIC We now have all the tools we need to add functionality! Let's say we want to add the ability to change a dog's name. We can simply update the **`name`** attribute like this.
@@ -250,7 +250,7 @@ print(f"Here's my name after updating it: {my_dog.return_name()}")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-f781f535-f48d-4fb6-a110-c52e5a6c4039
+# MAGIC %md <i18n value="f781f535-f48d-4fb6-a110-c52e5a6c4039"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## More Advanced Classes 

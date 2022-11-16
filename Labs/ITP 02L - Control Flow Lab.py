@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-4db476c9-19cb-4f89-ba8b-105c88ebcdea
+# MAGIC %md <i18n value="4db476c9-19cb-4f89-ba8b-105c88ebcdea"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Control Flow
@@ -22,7 +22,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-67b30eef-2bb7-405b-b750-905b74557169
+# MAGIC %md <i18n value="67b30eef-2bb7-405b-b750-905b74557169"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Food Recommender
@@ -36,7 +36,7 @@
 # MAGIC 
 # MAGIC * If it is at least 60 degrees outside AND it is sunny, recommend `ice cream`.
 # MAGIC * If it is at least 60 degrees outside, but it is not sunny, recommend `dumplings`.
-# MAGIC * If if it is less than 60 degrees, regardless of the weather, recommend `hot tea`. 
+# MAGIC * If if it is less than 60 degrees, regardless of the weather, recommend `hot tea`.
 
 # COMMAND ----------
 
@@ -46,7 +46,7 @@ sunny = TODO
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-50e00f9a-3fe3-41c6-8f52-d5526cb52e67
+# MAGIC %md <i18n value="50e00f9a-3fe3-41c6-8f52-d5526cb52e67"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Try changing the values of **`temperature`** and **`sunny`** and make sure it recommends the proper foods!

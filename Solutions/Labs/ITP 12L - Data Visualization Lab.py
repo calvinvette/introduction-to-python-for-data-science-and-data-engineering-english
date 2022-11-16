@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-d6c49d6f-2235-4e65-b012-70bf6850330c
+# MAGIC %md <i18n value="d6c49d6f-2235-4e65-b012-70bf6850330c"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Data Visualization Lab
@@ -35,7 +35,7 @@ df
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-faba5cfc-f9cd-4012-845c-117fb3f184fa
+# MAGIC %md <i18n value="faba5cfc-f9cd-4012-845c-117fb3f184fa"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Problem 1: Databricks Plotting
@@ -51,7 +51,7 @@ display(df)
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox --i18n-4c4c04ec-8c7c-4dfe-b680-fc6e5e7a254f
+# MAGIC %md-sandbox <i18n value="4c4c04ec-8c7c-4dfe-b680-fc6e5e7a254f"/>
 # MAGIC 
 # MAGIC 
 # MAGIC <button onclick="myFunction2()" >Click for Hint</button>
@@ -72,7 +72,7 @@ display(df)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-0ee316c5-f8b7-441c-9326-05eb0e4fac6e
+# MAGIC %md <i18n value="0ee316c5-f8b7-441c-9326-05eb0e4fac6e"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Problem 2: `pandas` plotting
@@ -86,7 +86,7 @@ df["AveragePrice"].hist()
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox --i18n-da21fa24-e730-4641-ace0-100da86d2c4f
+# MAGIC %md-sandbox <i18n value="da21fa24-e730-4641-ace0-100da86d2c4f"/>
 # MAGIC 
 # MAGIC 
 # MAGIC <button onclick="myFunction2()" >Click for Hint</button>
@@ -107,7 +107,7 @@ df["AveragePrice"].hist()
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-00f37c99-64bb-4b48-b73f-f5b69310645a
+# MAGIC %md <i18n value="00f37c99-64bb-4b48-b73f-f5b69310645a"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Datetime
@@ -128,7 +128,7 @@ df.dtypes
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-40b4972b-d755-4c4f-ac64-02a57ca8e9f2
+# MAGIC %md <i18n value="40b4972b-d755-4c4f-ac64-02a57ca8e9f2"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Problem 3: `seaborn` plotting
@@ -143,7 +143,7 @@ sns.scatterplot(data=plot_df, x="Date", y="Total Volume")
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox --i18n-47287cb5-ea6b-43bd-ac47-f84d5355a1a3
+# MAGIC %md-sandbox <i18n value="47287cb5-ea6b-43bd-ac47-f84d5355a1a3"/>
 # MAGIC 
 # MAGIC 
 # MAGIC <button onclick="myFunction2()" >Click for Hint</button>
@@ -164,7 +164,7 @@ sns.scatterplot(data=plot_df, x="Date", y="Total Volume")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-4fd56628-9c66-44a8-9b2d-bad0552fb619
+# MAGIC %md <i18n value="4fd56628-9c66-44a8-9b2d-bad0552fb619"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Problem 4: What about conventional avocados?
@@ -179,7 +179,7 @@ sns.scatterplot(data=d, x="Date", y="Total Volume")
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox --i18n-2e5c4b7b-0b50-41f0-8936-e407defce6dd
+# MAGIC %md-sandbox <i18n value="2e5c4b7b-0b50-41f0-8936-e407defce6dd"/>
 # MAGIC 
 # MAGIC 
 # MAGIC <button onclick="myFunction2()" >Click for Hint</button>

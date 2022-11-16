@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-50d4a990-cefe-41dd-a439-12f7706751be
+# MAGIC %md <i18n value="50d4a990-cefe-41dd-a439-12f7706751be"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Classes
@@ -19,7 +19,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox --i18n-37e05756-08e7-4ec8-8583-0cf5d64eea2b
+# MAGIC %md-sandbox <i18n value="37e05756-08e7-4ec8-8583-0cf5d64eea2b"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Exercise: Simpson
@@ -54,7 +54,7 @@ class Simpson():
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-b3b3aa47-1699-4d9e-806d-fa84134c143f
+# MAGIC %md <i18n value="b3b3aa47-1699-4d9e-806d-fa84134c143f"/>
 # MAGIC 
 # MAGIC 
 # MAGIC **Check your work:**

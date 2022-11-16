@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-65df298d-79ae-4ce6-9e3a-b736cde03178
+# MAGIC %md <i18n value="65df298d-79ae-4ce6-9e3a-b736cde03178"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Functions
@@ -17,11 +17,10 @@
 # MAGIC   * Arguments
 # MAGIC   * Type hints
 # MAGIC * Invoke the **`help()`** function 
-# MAGIC    
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-568cdf5f-5b84-4bf8-8709-4b58765d2640
+# MAGIC %md <i18n value="568cdf5f-5b84-4bf8-8709-4b58765d2640"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ## Functions
@@ -44,7 +43,7 @@ print(1)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-d8d44355-44a5-40a3-b8aa-30931e08d346
+# MAGIC %md <i18n value="d8d44355-44a5-40a3-b8aa-30931e08d346"/>
 # MAGIC 
 # MAGIC 
 # MAGIC As Python executes code, when it sees a call to our function, it jumps to the code block inside the function definition, runs that code, and then jumps back to where the function was called and resumes where it left off. 
@@ -62,7 +61,7 @@ ten_dollars_to_euros()
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-1a38c434-5f42-44fc-9338-b3d92a94548e
+# MAGIC %md <i18n value="1a38c434-5f42-44fc-9338-b3d92a94548e"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Notice that we indent the code block that is inside the function. Just like with **if-statements**, we must tell Python what code belongs inside the function. Recall that we use **`Tab`** to create the indents.
@@ -72,7 +71,6 @@ ten_dollars_to_euros()
 # MAGIC ```
 # MAGIC function_name(arguments)
 # MAGIC ``` 
-# MAGIC    
 
 # COMMAND ----------
 
@@ -84,7 +82,7 @@ print("Python ran this line after the function body")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-7511c94b-96a6-462c-89d6-af36b14548d7
+# MAGIC %md <i18n value="7511c94b-96a6-462c-89d6-af36b14548d7"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Parameters
@@ -102,14 +100,14 @@ def dollars_to_euros(dollar_amount):
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-4c927ca4-1ba3-4ee8-a691-9c4a421c99ee
+# MAGIC %md <i18n value="4c927ca4-1ba3-4ee8-a691-9c4a421c99ee"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Arguments
 # MAGIC 
 # MAGIC If our function has parameters, we need to specify what values we want our parameters to have. In our example, we need to provide a value for the **`dollar_amount`** parameter. We do so by including the value within the parentheses when we call the function, just as we did when we provided a value for **`print()`** to display.
 # MAGIC 
-# MAGIC The value that we pass to our function is called an [**argument**](https://www.w3schools.com/python/gloss_python_function_arguments.asp). In other words, executing **`dollars_to_euros(5)`** assigns the value **`5`** to the **`dollar_amount`** parameter and then runs the function's code. 
+# MAGIC The value that we pass to our function is called an [**argument**](https://www.w3schools.com/python/gloss_python_function_arguments.asp). In other words, executing **`dollars_to_euros(5)`** assigns the value **`5`** to the **`dollar_amount`** parameter and then runs the function's code.
 
 # COMMAND ----------
 
@@ -119,14 +117,14 @@ dollars_to_euros(20.0)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-fddb317f-15f3-44ea-bd84-2a05d88b80f4
+# MAGIC %md <i18n value="fddb317f-15f3-44ea-bd84-2a05d88b80f4"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Multiple Parameters
 # MAGIC 
 # MAGIC We can create a function with multiple parameters by defining multiple parameters separated by commas.
 # MAGIC 
-# MAGIC For example, let's specify the **`conversion_rate`** in addition to the **`dollar_amount`** when we call the function, in case it changes in the future. 
+# MAGIC For example, let's specify the **`conversion_rate`** in addition to the **`dollar_amount`** when we call the function, in case it changes in the future.
 
 # COMMAND ----------
 
@@ -135,7 +133,7 @@ def dollars_to_euros_with_rate(dollar_amount, conversion_rate):
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-19d2ba46-1dd6-48f6-b538-103e590886c4
+# MAGIC %md <i18n value="19d2ba46-1dd6-48f6-b538-103e590886c4"/>
 # MAGIC 
 # MAGIC 
 # MAGIC When we invoke this new function we must provide a value for each of the function's parameters, separated by commas.
@@ -148,7 +146,7 @@ dollars_to_euros_with_rate(5.0, 1.0)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-4e5652da-d220-4ca9-9e79-43913bcab298
+# MAGIC %md <i18n value="4e5652da-d220-4ca9-9e79-43913bcab298"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### Named Invocation
@@ -157,7 +155,7 @@ dollars_to_euros_with_rate(5.0, 1.0)
 # MAGIC 
 # MAGIC In the call **`dollars_to_euros_with_rate(10, 0.93)`**, **`dollar_amount`** is assigned **`10`** because **`dollar_amount`** is the first parameter and **`10`** is the first argument. Then **`conversion_rate = 0.93`** because they are the second parameter and argument.
 # MAGIC 
-# MAGIC We can also pass arguments into a function as shown below, explicitly providing the names of the parameters. This is less common, but if done this way the order in which the arguments are passed does not matter. 
+# MAGIC We can also pass arguments into a function as shown below, explicitly providing the names of the parameters. This is less common, but if done this way the order in which the arguments are passed does not matter.
 
 # COMMAND ----------
 
@@ -166,7 +164,7 @@ dollars_to_euros_with_rate(conversion_rate=0.93, dollar_amount=10.0)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-6bdc03a2-ebb6-4b4d-b5dd-032a434d9694
+# MAGIC %md <i18n value="6bdc03a2-ebb6-4b4d-b5dd-032a434d9694"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Default Parameter Values
@@ -190,7 +188,7 @@ def dollar_to_euro_with_default(dollar_amount, conversion_rate=0.93):
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-58cec573-c5dd-48cb-8276-a92362f460f5
+# MAGIC %md <i18n value="58cec573-c5dd-48cb-8276-a92362f460f5"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Now when we call this function, if we do not specify an argument for **`conversion_rate`**, it is set to **`0.93`**
@@ -202,7 +200,7 @@ dollar_to_euro_with_default(10.0, 0.5)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-95f77560-18ee-44d0-8b8d-1f3648916c31
+# MAGIC %md <i18n value="95f77560-18ee-44d0-8b8d-1f3648916c31"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Function Output
@@ -216,7 +214,7 @@ print(a)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-02f39e81-a952-4b78-a668-258e8e4b406f
+# MAGIC %md <i18n value="02f39e81-a952-4b78-a668-258e8e4b406f"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Our function runs and prints 9.3 while the function body is being executed, but when we try to have Python evaluate the function as an expression, it evaluates to **`None`**. **`None`** is a special data type that represents nothing. 
@@ -235,14 +233,14 @@ print(a)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-97416e6a-ea97-453c-b6a9-79d314c037d6
+# MAGIC %md <i18n value="97416e6a-ea97-453c-b6a9-79d314c037d6"/>
 # MAGIC 
 # MAGIC 
-# MAGIC Now, with the **`return`** keyword, Python evaluates **`dollar_to_euro_with_default(10.0)`** to **`0.93`** just like how it evaluates **`10.0 * 0.93`** to **`0.93`**. Anything we want a function to produce to use outside of the function needs to be put after **`return`**. Once Python reaches **`return`** in a function body, it exits the function and jumps back to where it left off. 
+# MAGIC Now, with the **`return`** keyword, Python evaluates **`dollar_to_euro_with_default(10.0)`** to **`0.93`** just like how it evaluates **`10.0 * 0.93`** to **`0.93`**. Anything we want a function to produce to use outside of the function needs to be put after **`return`**. Once Python reaches **`return`** in a function body, it exits the function and jumps back to where it left off.
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-aa8d0e9c-37c2-4664-a34d-f10b8d125887
+# MAGIC %md <i18n value="aa8d0e9c-37c2-4664-a34d-f10b8d125887"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Type Hints
@@ -267,7 +265,7 @@ def dollar_to_euro_with_default(dollar_amount: float, conversion_rate: float = 0
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-39b419fb-8600-4ae3-8b0e-f8019137fde8
+# MAGIC %md <i18n value="39b419fb-8600-4ae3-8b0e-f8019137fde8"/>
 # MAGIC 
 # MAGIC 
 # MAGIC It is important to note that these type hints are not enforced. They are hints showing that the types should be, but we can still pass the wrong type into the function and it will try to run it. 
@@ -276,7 +274,7 @@ def dollar_to_euro_with_default(dollar_amount: float, conversion_rate: float = 0
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-5c6b9dd2-f667-4272-a2c9-6ecce31df1de
+# MAGIC %md <i18n value="5c6b9dd2-f667-4272-a2c9-6ecce31df1de"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Docstrings
@@ -303,7 +301,7 @@ def dollar_to_euro_with_default(dollar_amount: float, conversion_rate: float = 0
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-cd94ab20-f634-4dbf-812e-f885691db238
+# MAGIC %md <i18n value="cd94ab20-f634-4dbf-812e-f885691db238"/>
 # MAGIC 
 # MAGIC 
 # MAGIC Docstrings, unlike comments, are saved as a property in Python. The built-in **`help()`** function accesses the docstring and displays it.
@@ -314,7 +312,7 @@ help(dollar_to_euro_with_default)
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-d5f90617-6c63-4a02-b1c4-af90e815e4a0
+# MAGIC %md <i18n value="d5f90617-6c63-4a02-b1c4-af90e815e4a0"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Scope
@@ -336,7 +334,7 @@ function()
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-00c7e6a3-c466-4242-8d25-c60efacc9175
+# MAGIC %md <i18n value="00c7e6a3-c466-4242-8d25-c60efacc9175"/>
 # MAGIC 
 # MAGIC 
 # MAGIC ### Built-in Functions
@@ -355,7 +353,7 @@ print(len("abc"))
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-8dca298f-3225-4e6e-b8ad-e84c72c53f46
+# MAGIC %md <i18n value="8dca298f-3225-4e6e-b8ad-e84c72c53f46"/>
 # MAGIC 
 # MAGIC 
 # MAGIC We can call **`help()`** on built-in functions to see their documentation.

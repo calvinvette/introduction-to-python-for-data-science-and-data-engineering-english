@@ -7,7 +7,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-344e9b62-1ae2-43aa-99d2-c7c01d2da834
+# MAGIC %md <i18n value="344e9b62-1ae2-43aa-99d2-c7c01d2da834"/>
 # MAGIC 
 # MAGIC 
 # MAGIC # Functions Lab
@@ -20,7 +20,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-e2d725c2-2e5c-4f6f-b520-a4775b782efb
+# MAGIC %md <i18n value="e2d725c2-2e5c-4f6f-b520-a4775b782efb"/>
 # MAGIC 
 # MAGIC  
 # MAGIC #### Problem 1: Even vs. Odd
@@ -43,7 +43,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-9bc17154-b90a-4197-a253-f217454795ba
+# MAGIC %md <i18n value="9bc17154-b90a-4197-a253-f217454795ba"/>
 # MAGIC 
 # MAGIC 
 # MAGIC **Check your work:**
@@ -58,7 +58,7 @@ print("Test passed!")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-0dfabbb0-d653-4330-9c4c-fb195bc54108
+# MAGIC %md <i18n value="0dfabbb0-d653-4330-9c4c-fb195bc54108"/>
 # MAGIC 
 # MAGIC 
 # MAGIC #### Problem 2: Fizz Buzz
@@ -84,7 +84,7 @@ print("Test passed!")
 
 # COMMAND ----------
 
-# MAGIC %md --i18n-83606571-52de-44d3-8552-b25632468989
+# MAGIC %md <i18n value="83606571-52de-44d3-8552-b25632468989"/>
 # MAGIC 
 # MAGIC 
 # MAGIC **Check your work:**
